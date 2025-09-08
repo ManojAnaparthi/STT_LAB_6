@@ -1,0 +1,2382 @@
+Flawfinder version 2.0.10, (C) 2001-2019 David A. Wheeler.
+Number of rules (primarily dangerous function names) in C/C++ ruleset: 223
+Examining ./oss/stb/stb_rect_pack.h
+Examining ./oss/chromium/base/numerics/math_constants.h
+Examining ./oss/chromium/base/numerics/safe_math.h
+Examining ./oss/chromium/base/numerics/clamped_math.h
+Examining ./oss/chromium/base/numerics/safe_math_arm_impl.h
+Examining ./oss/chromium/base/numerics/safe_math_shared_impl.h
+Examining ./oss/chromium/base/numerics/safe_math_clang_gcc_impl.h
+Examining ./oss/chromium/base/numerics/safe_conversions.h
+Examining ./oss/chromium/base/numerics/ranges.h
+Examining ./oss/chromium/base/numerics/checked_math_impl.h
+Examining ./oss/chromium/base/numerics/safe_conversions_arm_impl.h
+Examining ./oss/chromium/base/numerics/safe_conversions_impl.h
+Examining ./oss/chromium/base/numerics/clamped_math_impl.h
+Examining ./oss/chromium/base/numerics/checked_math.h
+Examining ./oss/pcg/include/pcg_random.hpp
+Examining ./oss/interval_tree/IntervalTree.h
+Examining ./samples/ConPTY/EchoCon/EchoCon/targetver.h
+Examining ./samples/ConPTY/EchoCon/EchoCon/stdafx.h
+Examining ./samples/ConPTY/EchoCon/EchoCon/EchoCon.cpp
+Examining ./samples/ConPTY/EchoCon/EchoCon/stdafx.cpp
+Examining ./dep/Win32K/winuserp.h
+Examining ./dep/telemetry/ProjectTelemetry.h
+Examining ./dep/Console/csrmsg.h
+Examining ./dep/Console/ntcon.h
+Examining ./dep/Console/winconp.h
+Examining ./dep/Console/ntcsrmsg.h
+Examining ./dep/Console/ntlpcapi.h
+Examining ./dep/Console/conapi.h
+Examining ./dep/Console/conmsgl2.h
+Examining ./dep/Console/conmsgl1.h
+Examining ./dep/Console/condrv.h
+Examining ./dep/Console/conmsgl3.h
+Examining ./dep/Console/ConIoSrv.h
+Examining ./dep/Console/ntcsrdll.h
+Examining ./dep/NT/ntioapi_x.h
+Examining ./scratch/ScratchIslandApp/WindowExe/SampleIslandWindow.h
+Examining ./scratch/ScratchIslandApp/WindowExe/resource.h
+Examining ./scratch/ScratchIslandApp/WindowExe/SampleBaseWindow.h
+Examining ./scratch/ScratchIslandApp/WindowExe/pch.cpp
+Examining ./scratch/ScratchIslandApp/WindowExe/pch.h
+Examining ./scratch/ScratchIslandApp/WindowExe/SampleIslandWindow.cpp
+Examining ./scratch/ScratchIslandApp/WindowExe/icon.cpp
+Examining ./scratch/ScratchIslandApp/WindowExe/SampleMain.cpp
+Examining ./scratch/ScratchIslandApp/WindowExe/icon.h
+Examining ./scratch/ScratchIslandApp/WindowExe/SampleAppHost.cpp
+Examining ./scratch/ScratchIslandApp/WindowExe/SampleAppHost.h
+Examining ./scratch/ScratchIslandApp/SampleApp/SampleAppLogic.cpp
+Examining ./scratch/ScratchIslandApp/SampleApp/pch.cpp
+Examining ./scratch/ScratchIslandApp/SampleApp/pch.h
+Examining ./scratch/ScratchIslandApp/SampleApp/dll/pch.cpp
+Examining ./scratch/ScratchIslandApp/SampleApp/dll/pch.h
+Examining ./scratch/ScratchIslandApp/SampleApp/MySettings.cpp
+Examining ./scratch/ScratchIslandApp/SampleApp/init.cpp
+Examining ./scratch/ScratchIslandApp/SampleApp/SampleAppLogic.h
+Examining ./scratch/ScratchIslandApp/SampleApp/MyPage.h
+Examining ./scratch/ScratchIslandApp/SampleApp/App.base.h
+Examining ./scratch/ScratchIslandApp/SampleApp/MySettings.h
+Examining ./scratch/ScratchIslandApp/SampleApp/App.cpp
+Examining ./scratch/ScratchIslandApp/SampleApp/App.h
+Examining ./scratch/ScratchIslandApp/SampleApp/MyPage.cpp
+Examining ./src/internal/precomp.cpp
+Examining ./src/internal/stubs.cpp
+Examining ./src/internal/precomp.h
+Examining ./src/interactivity/onecore/precomp.cpp
+Examining ./src/interactivity/onecore/ConIoSrvComm.hpp
+Examining ./src/interactivity/onecore/ConsoleInputThread.cpp
+Examining ./src/interactivity/onecore/ConsoleControl.cpp
+Examining ./src/interactivity/onecore/WindowMetrics.cpp
+Examining ./src/interactivity/onecore/ConsoleWindow.cpp
+Examining ./src/interactivity/onecore/BgfxEngine.hpp
+Examining ./src/interactivity/onecore/ConsoleControl.hpp
+Examining ./src/interactivity/onecore/WindowMetrics.hpp
+Examining ./src/interactivity/onecore/SystemConfigurationProvider.hpp
+Examining ./src/interactivity/onecore/SystemConfigurationProvider.cpp
+Examining ./src/interactivity/onecore/BgfxEngine.cpp
+Examining ./src/interactivity/onecore/AccessibilityNotifier.hpp
+Examining ./src/interactivity/onecore/ConsoleInputThread.hpp
+Examining ./src/interactivity/onecore/precomp.h
+Examining ./src/interactivity/onecore/ConIoSrvComm.cpp
+Examining ./src/interactivity/onecore/AccessibilityNotifier.cpp
+Examining ./src/interactivity/onecore/ConsoleWindow.hpp
+Examining ./src/interactivity/base/precomp.cpp
+Examining ./src/interactivity/base/HostSignalInputThread.cpp
+Examining ./src/interactivity/base/RemoteConsoleControl.cpp
+Examining ./src/interactivity/base/HostSignalInputThread.hpp
+Examining ./src/interactivity/base/ApiDetector.cpp
+Examining ./src/interactivity/base/RemoteConsoleControl.hpp
+Examining ./src/interactivity/base/VtApiRedirection.cpp
+Examining ./src/interactivity/base/InteractivityFactory.cpp
+Examining ./src/interactivity/base/PseudoConsoleWindowAccessibilityProvider.cpp
+Examining ./src/interactivity/base/ApiDetector.hpp
+Examining ./src/interactivity/base/EventSynthesis.cpp
+Examining ./src/interactivity/base/precomp.h
+Examining ./src/interactivity/base/PseudoConsoleWindowAccessibilityProvider.hpp
+Examining ./src/interactivity/base/ServiceLocator.cpp
+Examining ./src/interactivity/base/InteractivityFactory.hpp
+Examining ./src/interactivity/inc/IWindowMetrics.hpp
+Examining ./src/interactivity/inc/VtApiRedirection.hpp
+Examining ./src/interactivity/inc/IConsoleInputThread.hpp
+Examining ./src/interactivity/inc/EventSynthesis.hpp
+Examining ./src/interactivity/inc/ServiceLocator.hpp
+Examining ./src/interactivity/inc/Module.hpp
+Examining ./src/interactivity/inc/IHighDpiApi.hpp
+Examining ./src/interactivity/inc/IInteractivityFactory.hpp
+Examining ./src/interactivity/inc/IConsoleWindow.hpp
+Examining ./src/interactivity/inc/ISystemConfigurationProvider.hpp
+Examining ./src/interactivity/inc/IConsoleControl.hpp
+Examining ./src/interactivity/inc/IAccessibilityNotifier.hpp
+Examining ./src/interactivity/win32/screenInfoUiaProvider.cpp
+Examining ./src/interactivity/win32/precomp.cpp
+Examining ./src/interactivity/win32/resource.h
+Examining ./src/interactivity/win32/ut_interactivity_win32/GeneratedUiaTextRangeMovementTests.g.cpp
+Examining ./src/interactivity/win32/ut_interactivity_win32/UiaTextRangeTests.cpp
+Examining ./src/interactivity/win32/window.hpp
+Examining ./src/interactivity/win32/ConsoleInputThread.cpp
+Examining ./src/interactivity/win32/ConsoleControl.cpp
+Examining ./src/interactivity/win32/CustomWindowMessages.h
+Examining ./src/interactivity/win32/find.cpp
+Examining ./src/interactivity/win32/WindowMetrics.cpp
+Examining ./src/interactivity/win32/ConsoleControl.hpp
+Examining ./src/interactivity/win32/windowio.cpp
+Examining ./src/interactivity/win32/WindowMetrics.hpp
+Examining ./src/interactivity/win32/screenInfoUiaProvider.hpp
+Examining ./src/interactivity/win32/SystemConfigurationProvider.hpp
+Examining ./src/interactivity/win32/Clipboard.cpp
+Examining ./src/interactivity/win32/find.h
+Examining ./src/interactivity/win32/windowio.hpp
+Examining ./src/interactivity/win32/windowUiaProvider.cpp
+Examining ./src/interactivity/win32/SystemConfigurationProvider.cpp
+Examining ./src/interactivity/win32/AccessibilityNotifier.hpp
+Examining ./src/interactivity/win32/consoleKeyInfo.hpp
+Examining ./src/interactivity/win32/ConsoleInputThread.hpp
+Examining ./src/interactivity/win32/icon.cpp
+Examining ./src/interactivity/win32/consoleKeyInfo.cpp
+Examining ./src/interactivity/win32/uiaTextRange.hpp
+Examining ./src/interactivity/win32/precomp.h
+Examining ./src/interactivity/win32/windowproc.cpp
+Examining ./src/interactivity/win32/windowdpiapi.cpp
+Examining ./src/interactivity/win32/clipboard.hpp
+Examining ./src/interactivity/win32/menu.cpp
+Examining ./src/interactivity/win32/window.cpp
+Examining ./src/interactivity/win32/icon.hpp
+Examining ./src/interactivity/win32/uiaTextRange.cpp
+Examining ./src/interactivity/win32/AccessibilityNotifier.cpp
+Examining ./src/interactivity/win32/windowdpiapi.hpp
+Examining ./src/interactivity/win32/windowUiaProvider.hpp
+Examining ./src/interactivity/win32/menu.hpp
+Examining ./src/host/utils.hpp
+Examining ./src/host/renderData.hpp
+Examining ./src/host/getset.h
+Examining ./src/host/precomp.cpp
+Examining ./src/host/globals.h
+Examining ./src/host/readDataRaw.hpp
+Examining ./src/host/ntprivapi.hpp
+Examining ./src/host/tracing.cpp
+Examining ./src/host/resource.h
+Examining ./src/host/history.h
+Examining ./src/host/dbcs.h
+Examining ./src/host/conwinuserrefs.h
+Examining ./src/host/renderFontDefaults.cpp
+Examining ./src/host/CursorBlinker.hpp
+Examining ./src/host/VtIo.cpp
+Examining ./src/host/history.cpp
+Examining ./src/host/alias.cpp
+Examining ./src/host/readDataCooked.cpp
+Examining ./src/host/readData.cpp
+Examining ./src/host/ft_integrity/IntegrityTest.hpp
+Examining ./src/host/ft_integrity/precomp.hpp
+Examining ./src/host/ft_integrity/IntegrityTest.cpp
+Examining ./src/host/readDataCooked.hpp
+Examining ./src/host/readDataRaw.cpp
+Examining ./src/host/outputStream.hpp
+Examining ./src/host/alias.h
+Examining ./src/host/conserv.h
+Examining ./src/host/scrolling.hpp
+Examining ./src/host/selectionInput.cpp
+Examining ./src/host/stream.cpp
+Examining ./src/host/_stream.cpp
+Examining ./src/host/inputBuffer.cpp
+Examining ./src/host/writeData.cpp
+Examining ./src/host/directio.h
+Examining ./src/host/outputStream.cpp
+Examining ./src/host/writeData.hpp
+Examining ./src/host/_output.h
+Examining ./src/host/misc.h
+Examining ./src/host/ConsoleArguments.cpp
+Examining ./src/host/registry.cpp
+Examining ./src/host/CursorBlinker.cpp
+Examining ./src/host/ConsoleArguments.hpp
+Examining ./src/host/registry.hpp
+Examining ./src/host/input.h
+Examining ./src/host/ApiRoutines.h
+Examining ./src/host/readDataDirect.hpp
+Examining ./src/host/srvinit.h
+Examining ./src/host/inputReadHandleData.cpp
+Examining ./src/host/cmdline.h
+Examining ./src/host/conapi.h
+Examining ./src/host/exe/resource.h
+Examining ./src/host/exe/CConsoleHandoff.cpp
+Examining ./src/host/exe/exemain.cpp
+Examining ./src/host/exe/CConsoleHandoff.h
+Examining ./src/host/_output.cpp
+Examining ./src/host/stream.h
+Examining ./src/host/PtySignalInputThread.hpp
+Examining ./src/host/VtInputThread.cpp
+Examining ./src/host/renderData.cpp
+Examining ./src/host/settings.hpp
+Examining ./src/host/dbcs.cpp
+Examining ./src/host/handle.cpp
+Examining ./src/host/ft_fuzzer/fuzzmain.cpp
+Examining ./src/host/init.cpp
+Examining ./src/host/PtySignalInputThread.cpp
+Examining ./src/host/tracing.hpp
+Examining ./src/host/renderFontDefaults.hpp
+Examining ./src/host/cmdline.cpp
+Examining ./src/host/output.cpp
+Examining ./src/host/directio.cpp
+Examining ./src/host/readDataDirect.cpp
+Examining ./src/host/screenInfo.cpp
+Examining ./src/host/getset.cpp
+Examining ./src/host/precomp.h
+Examining ./src/host/consoleInformation.cpp
+Examining ./src/host/inputKeyInfo.cpp
+Examining ./src/host/ut_host/ClipboardTests.cpp
+Examining ./src/host/ut_host/TextBufferTests.cpp
+Examining ./src/host/ut_host/VtIoTests.cpp
+Examining ./src/host/ut_host/SearchTests.cpp
+Examining ./src/host/ut_host/ObjectTests.cpp
+Examining ./src/host/ut_host/TextBufferIteratorTests.cpp
+Examining ./src/host/ut_host/ViewportTests.cpp
+Examining ./src/host/ut_host/TitleTests.cpp
+Examining ./src/host/ut_host/AliasTests.cpp
+Examining ./src/host/ut_host/InputBufferTests.cpp
+Examining ./src/host/ut_host/ApiRoutinesTests.cpp
+Examining ./src/host/ut_host/ScreenBufferTests.cpp
+Examining ./src/host/ut_host/InitTests.cpp
+Examining ./src/host/ut_host/UtilsTests.cpp
+Examining ./src/host/ut_host/OutputCellIteratorTests.cpp
+Examining ./src/host/ut_host/ConsoleArgumentsTests.cpp
+Examining ./src/host/ut_host/SelectionTests.cpp
+Examining ./src/host/ut_host/HistoryTests.cpp
+Examining ./src/host/handle.h
+Examining ./src/host/srvinit.cpp
+Examining ./src/host/ntprivapi.cpp
+Examining ./src/host/conddkrefs.h
+Examining ./src/host/utils.cpp
+Examining ./src/host/_stream.h
+Examining ./src/host/globals.cpp
+Examining ./src/host/scrolling.cpp
+Examining ./src/host/VtIo.hpp
+Examining ./src/host/input.cpp
+Examining ./src/host/misc.cpp
+Examining ./src/host/init.hpp
+Examining ./src/host/VtInputThread.hpp
+Examining ./src/host/selection.hpp
+Examining ./src/host/screenInfo.hpp
+Examining ./src/host/settings.cpp
+Examining ./src/host/output.h
+Examining ./src/host/selectionState.cpp
+Examining ./src/host/IIoProvider.hpp
+Examining ./src/host/server.h
+Examining ./src/host/ft_host/API_OutputTests.cpp
+Examining ./src/host/ft_host/API_DimensionsTests.cpp
+Examining ./src/host/ft_host/API_FileTests.cpp
+Examining ./src/host/ft_host/precomp.cpp
+Examining ./src/host/ft_host/resource.h
+Examining ./src/host/ft_host/Common.hpp
+Examining ./src/host/ft_host/Message_KeyPressTests.cpp
+Examining ./src/host/ft_host/API_BufferTests.cpp
+Examining ./src/host/ft_host/OneCoreDelay.cpp
+Examining ./src/host/ft_host/CJK_DbcsTests.cpp
+Examining ./src/host/ft_host/API_PolicyTests.cpp
+Examining ./src/host/ft_host/API_TitleTests.cpp
+Examining ./src/host/ft_host/API_AliasTestsHelpers.hpp
+Examining ./src/host/ft_host/API_RgbColorTests.cpp
+Examining ./src/host/ft_host/API_ModeTests.cpp
+Examining ./src/host/ft_host/Common.cpp
+Examining ./src/host/ft_host/API_CursorTests.cpp
+Examining ./src/host/ft_host/API_FontTests.cpp
+Examining ./src/host/ft_host/API_InputTests.cpp
+Examining ./src/host/ft_host/InitTests.cpp
+Examining ./src/host/ft_host/precomp.h
+Examining ./src/host/ft_host/OneCoreDelay.hpp
+Examining ./src/host/ft_host/API_MultipleInflightMessageTests.cpp
+Examining ./src/host/ft_host/CanaryTests.cpp
+Examining ./src/host/ft_host/API_FillOutputTests.cpp
+Examining ./src/host/ft_host/API_AliasTests.cpp
+Examining ./src/host/selection.cpp
+Examining ./src/host/inputBuffer.hpp
+Examining ./src/host/inputReadHandleData.h
+Examining ./src/host/readData.hpp
+Examining ./src/renderer/base/precomp.cpp
+Examining ./src/renderer/base/renderer.cpp
+Examining ./src/renderer/base/RenderEngineBase.cpp
+Examining ./src/renderer/base/FontResource.cpp
+Examining ./src/renderer/base/thread.hpp
+Examining ./src/renderer/base/CSSLengthPercentage.cpp
+Examining ./src/renderer/base/thread.cpp
+Examining ./src/renderer/base/FontInfoBase.cpp
+Examining ./src/renderer/base/FontCache.h
+Examining ./src/renderer/base/renderer.hpp
+Examining ./src/renderer/base/fontinfo.cpp
+Examining ./src/renderer/base/precomp.h
+Examining ./src/renderer/base/RenderSettings.cpp
+Examining ./src/renderer/base/FontInfoDesired.cpp
+Examining ./src/renderer/inc/FontInfo.hpp
+Examining ./src/renderer/inc/IRenderData.hpp
+Examining ./src/renderer/inc/RenderEngineBase.hpp
+Examining ./src/renderer/inc/Cluster.hpp
+Examining ./src/renderer/inc/CursorOptions.h
+Examining ./src/renderer/inc/RenderSettings.hpp
+Examining ./src/renderer/inc/CSSLengthPercentage.h
+Examining ./src/renderer/inc/IRenderEngine.hpp
+Examining ./src/renderer/inc/FontInfoDesired.hpp
+Examining ./src/renderer/inc/DummyRenderer.hpp
+Examining ./src/renderer/inc/FontResource.hpp
+Examining ./src/renderer/inc/IFontDefaultList.hpp
+Examining ./src/renderer/inc/FontInfoBase.hpp
+Examining ./src/renderer/atlas/common.h
+Examining ./src/renderer/atlas/pch.cpp
+Examining ./src/renderer/atlas/dwrite.h
+Examining ./src/renderer/atlas/pch.h
+Examining ./src/renderer/atlas/wic.cpp
+Examining ./src/renderer/atlas/Backend.h
+Examining ./src/renderer/atlas/BuiltinGlyphs.cpp
+Examining ./src/renderer/atlas/stb_rect_pack.cpp
+Examining ./src/renderer/atlas/dwrite.cpp
+Examining ./src/renderer/atlas/BackendD2D.cpp
+Examining ./src/renderer/atlas/DWriteTextAnalysis.h
+Examining ./src/renderer/atlas/BuiltinGlyphs.h
+Examining ./src/renderer/atlas/BackendD3D.h
+Examining ./src/renderer/atlas/AtlasEngine.api.cpp
+Examining ./src/renderer/atlas/Backend.cpp
+Examining ./src/renderer/atlas/AtlasEngine.h
+Examining ./src/renderer/atlas/AtlasEngine.cpp
+Examining ./src/renderer/atlas/wic.h
+Examining ./src/renderer/atlas/BackendD3D.cpp
+Examining ./src/renderer/atlas/BackendD2D.h
+Examining ./src/renderer/atlas/AtlasEngine.r.cpp
+Examining ./src/renderer/atlas/DWriteTextAnalysis.cpp
+Examining ./src/renderer/wddmcon/precomp.cpp
+Examining ./src/renderer/wddmcon/main.h
+Examining ./src/renderer/wddmcon/oss_shim.h
+Examining ./src/renderer/wddmcon/precomp.h
+Examining ./src/renderer/wddmcon/WddmConRenderer.cpp
+Examining ./src/renderer/wddmcon/main.cxx
+Examining ./src/renderer/wddmcon/WddmConRenderer.hpp
+Examining ./src/renderer/gdi/precomp.cpp
+Examining ./src/renderer/gdi/paint.cpp
+Examining ./src/renderer/gdi/state.cpp
+Examining ./src/renderer/gdi/invalidate.cpp
+Examining ./src/renderer/gdi/math.cpp
+Examining ./src/renderer/gdi/precomp.h
+Examining ./src/renderer/gdi/gdirenderer.hpp
+Examining ./src/renderer/gdi/tool/main.cpp
+Examining ./src/renderer/uia/precomp.cpp
+Examining ./src/renderer/uia/UiaRenderer.cpp
+Examining ./src/renderer/uia/UiaRenderer.hpp
+Examining ./src/renderer/uia/precomp.h
+Examining ./src/types/precomp.cpp
+Examining ./src/types/IUiaEventDispatcher.h
+Examining ./src/types/TermControlUiaProvider.cpp
+Examining ./src/types/UiaTextRangeBase.hpp
+Examining ./src/types/TermControlUiaTextRange.hpp
+Examining ./src/types/UiaTracing.h
+Examining ./src/types/ScreenInfoUiaProviderBase.cpp
+Examining ./src/types/viewport.cpp
+Examining ./src/types/sgrStack.cpp
+Examining ./src/types/UiaTracing.cpp
+Examining ./src/types/IUiaTraceable.h
+Examining ./src/types/ut_types/UuidTests.cpp
+Examining ./src/types/ut_types/CodepointWidthDetectorTests.cpp
+Examining ./src/types/ut_types/UtilsTests.cpp
+Examining ./src/types/IControlAccessibilityInfo.h
+Examining ./src/types/TermControlUiaProvider.hpp
+Examining ./src/types/inc/IInputEvent.hpp
+Examining ./src/types/inc/utils.hpp
+Examining ./src/types/inc/ThemeUtils.h
+Examining ./src/types/inc/User32Utils.hpp
+Examining ./src/types/inc/viewport.hpp
+Examining ./src/types/inc/sgrStack.hpp
+Examining ./src/types/inc/colorTable.hpp
+Examining ./src/types/inc/CodepointWidthDetector.hpp
+Examining ./src/types/inc/ColorFix.hpp
+Examining ./src/types/inc/convert.hpp
+Examining ./src/types/inc/GlyphWidth.hpp
+Examining ./src/types/ThemeUtils.cpp
+Examining ./src/types/colorTable.cpp
+Examining ./src/types/ScreenInfoUiaProviderBase.h
+Examining ./src/types/TermControlUiaTextRange.cpp
+Examining ./src/types/UiaTextRangeBase.cpp
+Examining ./src/types/precomp.h
+Examining ./src/types/GlyphWidth.cpp
+Examining ./src/types/utils.cpp
+Examining ./src/types/ColorFix.cpp
+Examining ./src/types/convert.cpp
+Examining ./src/types/CodepointWidthDetector.cpp
+Examining ./src/server/DeviceComm.h
+Examining ./src/server/ProcessList.h
+Examining ./src/server/ApiSorter.h
+Examining ./src/server/precomp.cpp
+Examining ./src/server/WaitBlock.cpp
+Examining ./src/server/ConsoleShimPolicy.h
+Examining ./src/server/IoDispatchers.h
+Examining ./src/server/WaitQueue.h
+Examining ./src/server/ApiDispatchers.h
+Examining ./src/server/IoSorter.cpp
+Examining ./src/server/IApiRoutines.h
+Examining ./src/server/ApiDispatchers.cpp
+Examining ./src/server/ProcessHandle.cpp
+Examining ./src/server/Entrypoints.cpp
+Examining ./src/server/ApiMessageState.h
+Examining ./src/server/WaitQueue.cpp
+Examining ./src/server/WaitTerminationReason.h
+Examining ./src/server/ConsoleShimPolicy.cpp
+Examining ./src/server/WinNTControl.h
+Examining ./src/server/WaitBlock.h
+Examining ./src/server/ProcessPolicy.cpp
+Examining ./src/server/ConDrvDeviceComm.cpp
+Examining ./src/server/ConDrvDeviceComm.h
+Examining ./src/server/IoSorter.h
+Examining ./src/server/ProcessPolicy.h
+Examining ./src/server/ApiSorter.cpp
+Examining ./src/server/ApiMessageState.cpp
+Examining ./src/server/winbasep.h
+Examining ./src/server/ObjectHeader.cpp
+Examining ./src/server/IoThread.h
+Examining ./src/server/ApiMessage.h
+Examining ./src/server/ProcessList.cpp
+Examining ./src/server/precomp.h
+Examining ./src/server/WinNTControl.cpp
+Examining ./src/server/ApiDispatchersInternal.cpp
+Examining ./src/server/DeviceHandle.h
+Examining ./src/server/ApiMessage.cpp
+Examining ./src/server/Entrypoints.h
+Examining ./src/server/ObjectHeader.h
+Examining ./src/server/ObjectHandle.h
+Examining ./src/server/IWaitRoutine.h
+Examining ./src/server/DeviceHandle.cpp
+Examining ./src/server/ObjectHandle.cpp
+Examining ./src/server/IoDispatchers.cpp
+Examining ./src/server/ProcessHandle.h
+Examining ./src/cascadia/UnitTests_Control/pch.cpp
+Examining ./src/cascadia/UnitTests_Control/ControlCoreTests.cpp
+Examining ./src/cascadia/UnitTests_Control/pch.h
+Examining ./src/cascadia/UnitTests_Control/ControlInteractivityTests.cpp
+Examining ./src/cascadia/UnitTests_Control/MockControlSettings.h
+Examining ./src/cascadia/UnitTests_Control/MockConnection.h
+Examining ./src/cascadia/UnitTests_SettingsModel/KeyBindingsTests.cpp
+Examining ./src/cascadia/UnitTests_SettingsModel/CommandTests.cpp
+Examining ./src/cascadia/UnitTests_SettingsModel/pch.cpp
+Examining ./src/cascadia/UnitTests_SettingsModel/pch.h
+Examining ./src/cascadia/UnitTests_SettingsModel/ThemeTests.cpp
+Examining ./src/cascadia/UnitTests_SettingsModel/TestUtils.h
+Examining ./src/cascadia/UnitTests_SettingsModel/MediaResourceTests.cpp
+Examining ./src/cascadia/UnitTests_SettingsModel/NewTabMenuTests.cpp
+Examining ./src/cascadia/UnitTests_SettingsModel/ProfileTests.cpp
+Examining ./src/cascadia/UnitTests_SettingsModel/ColorSchemeTests.cpp
+Examining ./src/cascadia/UnitTests_SettingsModel/DeserializationTests.cpp
+Examining ./src/cascadia/UnitTests_SettingsModel/SerializationTests.cpp
+Examining ./src/cascadia/UnitTests_SettingsModel/JsonTestClass.h
+Examining ./src/cascadia/UnitTests_SettingsModel/TerminalSettingsTests.cpp
+Examining ./src/cascadia/WinRTUtils/pch.cpp
+Examining ./src/cascadia/WinRTUtils/pch.h
+Examining ./src/cascadia/WinRTUtils/Utils.cpp
+Examining ./src/cascadia/WinRTUtils/inc/LibraryResources.h
+Examining ./src/cascadia/WinRTUtils/inc/ScopedResourceLoader.h
+Examining ./src/cascadia/WinRTUtils/inc/SafeDispatcherTimer.h
+Examining ./src/cascadia/WinRTUtils/inc/ThrottledFunc.h
+Examining ./src/cascadia/WinRTUtils/inc/WtExeUtils.h
+Examining ./src/cascadia/WinRTUtils/inc/Utils.h
+Examining ./src/cascadia/WinRTUtils/ScopedResourceLoader.cpp
+Examining ./src/cascadia/WinRTUtils/LibraryResources.cpp
+Examining ./src/cascadia/TerminalApp/ScratchpadContent.cpp
+Examining ./src/cascadia/TerminalApp/HighlightedTextControl.h
+Examining ./src/cascadia/TerminalApp/MinMaxCloseControl.h
+Examining ./src/cascadia/TerminalApp/Toast.h
+Examining ./src/cascadia/TerminalApp/WindowsPackageManagerFactory.h
+Examining ./src/cascadia/TerminalApp/SettingsPaneContent.h
+Examining ./src/cascadia/TerminalApp/AboutDialog.cpp
+Examining ./src/cascadia/TerminalApp/Pane.cpp
+Examining ./src/cascadia/TerminalApp/LanguageProfileNotifier.cpp
+Examining ./src/cascadia/TerminalApp/CommandPaletteItems.cpp
+Examining ./src/cascadia/TerminalApp/TabManagement.cpp
+Examining ./src/cascadia/TerminalApp/Commandline.h
+Examining ./src/cascadia/TerminalApp/pch.cpp
+Examining ./src/cascadia/TerminalApp/ShortcutActionDispatch.cpp
+Examining ./src/cascadia/TerminalApp/TerminalSettingsCache.cpp
+Examining ./src/cascadia/TerminalApp/SnippetsPaneContent.cpp
+Examining ./src/cascadia/TerminalApp/SnippetsPaneContent.h
+Examining ./src/cascadia/TerminalApp/Commandline.cpp
+Examining ./src/cascadia/TerminalApp/Tab.h
+Examining ./src/cascadia/TerminalApp/TabHeaderControl.h
+Examining ./src/cascadia/TerminalApp/pch.h
+Examining ./src/cascadia/TerminalApp/TitlebarControl.cpp
+Examining ./src/cascadia/TerminalApp/Remoting.h
+Examining ./src/cascadia/TerminalApp/FilteredCommand.cpp
+Examining ./src/cascadia/TerminalApp/Tab.cpp
+Examining ./src/cascadia/TerminalApp/TerminalWindow.cpp
+Examining ./src/cascadia/TerminalApp/CommandPaletteItems.h
+Examining ./src/cascadia/TerminalApp/Toast.cpp
+Examining ./src/cascadia/TerminalApp/TabRowControl.cpp
+Examining ./src/cascadia/TerminalApp/TerminalPage.h
+Examining ./src/cascadia/TerminalApp/ColorPickupFlyout.cpp
+Examining ./src/cascadia/TerminalApp/DebugTapConnection.cpp
+Examining ./src/cascadia/TerminalApp/dll/pch.cpp
+Examining ./src/cascadia/TerminalApp/dll/pch.h
+Examining ./src/cascadia/TerminalApp/TerminalWindow.h
+Examining ./src/cascadia/TerminalApp/PaletteItemTemplateSelector.cpp
+Examining ./src/cascadia/TerminalApp/TitlebarControl.h
+Examining ./src/cascadia/TerminalApp/AppActionHandlers.cpp
+Examining ./src/cascadia/TerminalApp/TerminalTabStatus.cpp
+Examining ./src/cascadia/TerminalApp/PaletteItemTemplateSelector.h
+Examining ./src/cascadia/TerminalApp/Pane.h
+Examining ./src/cascadia/TerminalApp/ContentManager.h
+Examining ./src/cascadia/TerminalApp/ContentManager.cpp
+Examining ./src/cascadia/TerminalApp/SettingsLoadEventArgs.h
+Examining ./src/cascadia/TerminalApp/CommandPalette.h
+Examining ./src/cascadia/TerminalApp/TerminalTabStatus.h
+Examining ./src/cascadia/TerminalApp/FilteredCommand.h
+Examining ./src/cascadia/TerminalApp/MarkdownPaneContent.h
+Examining ./src/cascadia/TerminalApp/ActionPreviewHandlers.cpp
+Examining ./src/cascadia/TerminalApp/fzf/fzf.cpp
+Examining ./src/cascadia/TerminalApp/fzf/fzf.h
+Examining ./src/cascadia/TerminalApp/DebugTapConnection.h
+Examining ./src/cascadia/TerminalApp/ColorPickupFlyout.h
+Examining ./src/cascadia/TerminalApp/SettingsPaneContent.cpp
+Examining ./src/cascadia/TerminalApp/init.cpp
+Examining ./src/cascadia/TerminalApp/LanguageProfileNotifier.h
+Examining ./src/cascadia/TerminalApp/ScratchpadContent.h
+Examining ./src/cascadia/TerminalApp/AppKeyBindings.h
+Examining ./src/cascadia/TerminalApp/AppKeyBindings.cpp
+Examining ./src/cascadia/TerminalApp/App.base.h
+Examining ./src/cascadia/TerminalApp/ShortcutActionDispatch.h
+Examining ./src/cascadia/TerminalApp/TerminalSettingsCache.h
+Examining ./src/cascadia/TerminalApp/Remoting.cpp
+Examining ./src/cascadia/TerminalApp/TabRowControl.h
+Examining ./src/cascadia/TerminalApp/AboutDialog.h
+Examining ./src/cascadia/TerminalApp/SuggestionsControl.cpp
+Examining ./src/cascadia/TerminalApp/AppCommandlineArgs.h
+Examining ./src/cascadia/TerminalApp/AppLogic.h
+Examining ./src/cascadia/TerminalApp/Pane.LayoutSizeNode.cpp
+Examining ./src/cascadia/TerminalApp/TaskbarState.cpp
+Examining ./src/cascadia/TerminalApp/App.cpp
+Examining ./src/cascadia/TerminalApp/HighlightedTextControl.cpp
+Examining ./src/cascadia/TerminalApp/CommandPalette.cpp
+Examining ./src/cascadia/TerminalApp/Jumplist.h
+Examining ./src/cascadia/TerminalApp/TerminalPaneContent.cpp
+Examining ./src/cascadia/TerminalApp/MinMaxCloseControl.cpp
+Examining ./src/cascadia/TerminalApp/App.h
+Examining ./src/cascadia/TerminalApp/BasicPaneEvents.h
+Examining ./src/cascadia/TerminalApp/MarkdownPaneContent.cpp
+Examining ./src/cascadia/TerminalApp/AppCommandlineArgs.cpp
+Examining ./src/cascadia/TerminalApp/TaskbarState.h
+Examining ./src/cascadia/TerminalApp/TabHeaderControl.cpp
+Examining ./src/cascadia/TerminalApp/TerminalPaneContent.h
+Examining ./src/cascadia/TerminalApp/SuggestionsControl.h
+Examining ./src/cascadia/TerminalApp/Jumplist.cpp
+Examining ./src/cascadia/TerminalApp/BasePaletteItem.h
+Examining ./src/cascadia/TerminalApp/TerminalPage.cpp
+Examining ./src/cascadia/TerminalApp/AppLogic.cpp
+Examining ./src/cascadia/TerminalAzBridge/ConsoleInputReader.cpp
+Examining ./src/cascadia/TerminalAzBridge/pch.cpp
+Examining ./src/cascadia/TerminalAzBridge/pch.h
+Examining ./src/cascadia/TerminalAzBridge/ConsoleInputReader.h
+Examining ./src/cascadia/TerminalAzBridge/main.cpp
+Examining ./src/cascadia/TerminalSettingsModel/TerminalSettingsSerializationHelpers.h
+Examining ./src/cascadia/TerminalSettingsModel/VsDevCmdGenerator.h
+Examining ./src/cascadia/TerminalSettingsModel/SshHostGenerator.h
+Examining ./src/cascadia/TerminalSettingsModel/AzureCloudShellGenerator.h
+Examining ./src/cascadia/TerminalSettingsModel/ActionAndArgs.cpp
+Examining ./src/cascadia/TerminalSettingsModel/PowershellCoreProfileGenerator.cpp
+Examining ./src/cascadia/TerminalSettingsModel/EnumMappings.h
+Examining ./src/cascadia/TerminalSettingsModel/resource.h
+Examining ./src/cascadia/TerminalSettingsModel/MediaResourceSupport.cpp
+Examining ./src/cascadia/TerminalSettingsModel/TerminalWarnings.h
+Examining ./src/cascadia/TerminalSettingsModel/pch.cpp
+Examining ./src/cascadia/TerminalSettingsModel/MTSMSettings.h
+Examining ./src/cascadia/TerminalSettingsModel/ActionAndArgs.h
+Examining ./src/cascadia/TerminalSettingsModel/VisualStudioGenerator.h
+Examining ./src/cascadia/TerminalSettingsModel/AppearanceConfig.cpp
+Examining ./src/cascadia/TerminalSettingsModel/FolderEntry.cpp
+Examining ./src/cascadia/TerminalSettingsModel/Theme.cpp
+Examining ./src/cascadia/TerminalSettingsModel/ProfileCollectionEntry.cpp
+Examining ./src/cascadia/TerminalSettingsModel/ActionArgsMagic.h
+Examining ./src/cascadia/TerminalSettingsModel/pch.h
+Examining ./src/cascadia/TerminalSettingsModel/RemainingProfilesEntry.h
+Examining ./src/cascadia/TerminalSettingsModel/VsDevShellGenerator.h
+Examining ./src/cascadia/TerminalSettingsModel/ProfileEntry.cpp
+Examining ./src/cascadia/TerminalSettingsModel/ActionArgs.h
+Examining ./src/cascadia/TerminalSettingsModel/SeparatorEntry.cpp
+Examining ./src/cascadia/TerminalSettingsModel/MatchProfilesEntry.cpp
+Examining ./src/cascadia/TerminalSettingsModel/FileUtils.h
+Examining ./src/cascadia/TerminalSettingsModel/VsDevCmdGenerator.cpp
+Examining ./src/cascadia/TerminalSettingsModel/IDynamicProfileGenerator.h
+Examining ./src/cascadia/TerminalSettingsModel/IInheritable.idl.h
+Examining ./src/cascadia/TerminalSettingsModel/MatchProfilesEntry.h
+Examining ./src/cascadia/TerminalSettingsModel/ActionMap.h
+Examining ./src/cascadia/TerminalSettingsModel/Theme.h
+Examining ./src/cascadia/TerminalSettingsModel/CascadiaSettings.h
+Examining ./src/cascadia/TerminalSettingsModel/NewTabMenuEntry.h
+Examining ./src/cascadia/TerminalSettingsModel/GlobalAppSettings.h
+Examining ./src/cascadia/TerminalSettingsModel/NewTabMenuEntry.cpp
+Examining ./src/cascadia/TerminalSettingsModel/VsSetupConfiguration.cpp
+Examining ./src/cascadia/TerminalSettingsModel/HashUtils.h
+Examining ./src/cascadia/TerminalSettingsModel/ActionEntry.cpp
+Examining ./src/cascadia/TerminalSettingsModel/ApplicationState.h
+Examining ./src/cascadia/TerminalSettingsModel/SeparatorEntry.h
+Examining ./src/cascadia/TerminalSettingsModel/CascadiaSettings.cpp
+Examining ./src/cascadia/TerminalSettingsModel/FontConfig.h
+Examining ./src/cascadia/TerminalSettingsModel/GlobalAppSettings.cpp
+Examining ./src/cascadia/TerminalSettingsModel/SettingsTypes.h
+Examining ./src/cascadia/TerminalSettingsModel/ProfileEntry.h
+Examining ./src/cascadia/TerminalSettingsModel/FontConfig.cpp
+Examining ./src/cascadia/TerminalSettingsModel/KeyChordSerialization.h
+Examining ./src/cascadia/TerminalSettingsModel/init.cpp
+Examining ./src/cascadia/TerminalSettingsModel/FolderEntry.h
+Examining ./src/cascadia/TerminalSettingsModel/SshHostGenerator.cpp
+Examining ./src/cascadia/TerminalSettingsModel/DefaultTerminal.cpp
+Examining ./src/cascadia/TerminalSettingsModel/ApplicationState.cpp
+Examining ./src/cascadia/TerminalSettingsModel/WslDistroGenerator.cpp
+Examining ./src/cascadia/TerminalSettingsModel/VisualStudioGenerator.cpp
+Examining ./src/cascadia/TerminalSettingsModel/JsonUtils.h
+Examining ./src/cascadia/TerminalSettingsModel/ColorScheme.cpp
+Examining ./src/cascadia/TerminalSettingsModel/MediaResourceSupport.h
+Examining ./src/cascadia/TerminalSettingsModel/ColorScheme.h
+Examining ./src/cascadia/TerminalSettingsModel/KeyChordSerialization.cpp
+Examining ./src/cascadia/TerminalSettingsModel/ModelSerializationHelpers.h
+Examining ./src/cascadia/TerminalSettingsModel/VsDevShellGenerator.cpp
+Examining ./src/cascadia/TerminalSettingsModel/AppearanceConfig.h
+Examining ./src/cascadia/TerminalSettingsModel/IInheritable.h
+Examining ./src/cascadia/TerminalSettingsModel/FileUtils.cpp
+Examining ./src/cascadia/TerminalSettingsModel/AllShortcutActions.h
+Examining ./src/cascadia/TerminalSettingsModel/ProfileCollectionEntry.h
+Examining ./src/cascadia/TerminalSettingsModel/Command.h
+Examining ./src/cascadia/TerminalSettingsModel/AzureCloudShellGenerator.cpp
+Examining ./src/cascadia/TerminalSettingsModel/TestHooks.cpp
+Examining ./src/cascadia/TerminalSettingsModel/DynamicProfileUtils.cpp
+Examining ./src/cascadia/TerminalSettingsModel/ActionArgs.cpp
+Examining ./src/cascadia/TerminalSettingsModel/WslDistroGenerator.h
+Examining ./src/cascadia/TerminalSettingsModel/ActionEntry.h
+Examining ./src/cascadia/TerminalSettingsModel/LegacyProfileGeneratorNamespaces.h
+Examining ./src/cascadia/TerminalSettingsModel/DynamicProfileUtils.h
+Examining ./src/cascadia/TerminalSettingsModel/PowershellCoreProfileGenerator.h
+Examining ./src/cascadia/TerminalSettingsModel/ActionMapSerialization.cpp
+Examining ./src/cascadia/TerminalSettingsModel/CascadiaSettingsSerialization.cpp
+Examining ./src/cascadia/TerminalSettingsModel/Profile.h
+Examining ./src/cascadia/TerminalSettingsModel/ActionMap.cpp
+Examining ./src/cascadia/TerminalSettingsModel/EnumMappings.cpp
+Examining ./src/cascadia/TerminalSettingsModel/VsSetupConfiguration.h
+Examining ./src/cascadia/TerminalSettingsModel/RemainingProfilesEntry.cpp
+Examining ./src/cascadia/TerminalSettingsModel/Command.cpp
+Examining ./src/cascadia/TerminalSettingsModel/DefaultTerminal.h
+Examining ./src/cascadia/TerminalSettingsModel/Profile.cpp
+Examining ./src/cascadia/UnitTests_TerminalCore/pch.cpp
+Examining ./src/cascadia/UnitTests_TerminalCore/pch.h
+Examining ./src/cascadia/UnitTests_TerminalCore/ScreenSizeLimitsTest.cpp
+Examining ./src/cascadia/UnitTests_TerminalCore/InputTest.cpp
+Examining ./src/cascadia/UnitTests_TerminalCore/SelectionTest.cpp
+Examining ./src/cascadia/UnitTests_TerminalCore/ScrollTest.cpp
+Examining ./src/cascadia/UnitTests_TerminalCore/TerminalBufferTests.cpp
+Examining ./src/cascadia/UnitTests_TerminalCore/TerminalApiTest.cpp
+Examining ./src/cascadia/UnitTests_TerminalCore/TilWinRtHelpersTests.cpp
+Examining ./src/cascadia/UnitTests_TerminalCore/MockTermSettings.h
+Examining ./src/cascadia/TerminalCore/terminalrenderdata.cpp
+Examining ./src/cascadia/TerminalCore/TerminalSelection.cpp
+Examining ./src/cascadia/TerminalCore/pch.cpp
+Examining ./src/cascadia/TerminalCore/pch.h
+Examining ./src/cascadia/TerminalCore/ITerminalInput.hpp
+Examining ./src/cascadia/TerminalCore/tracing.hpp
+Examining ./src/cascadia/TerminalCore/Terminal.cpp
+Examining ./src/cascadia/TerminalCore/ControlKeyStates.hpp
+Examining ./src/cascadia/TerminalCore/Terminal.hpp
+Examining ./src/cascadia/TerminalCore/TerminalApi.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/Rendering.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/GlobalAppearance.h
+Examining ./src/cascadia/TerminalSettingsEditor/Appearances.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/TerminalColorConverters.h
+Examining ./src/cascadia/TerminalSettingsEditor/ProfileViewModel.h
+Examining ./src/cascadia/TerminalSettingsEditor/ViewModelHelpers.h
+Examining ./src/cascadia/TerminalSettingsEditor/PreviewConnection.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/EditColorScheme.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/Actions.h
+Examining ./src/cascadia/TerminalSettingsEditor/SegoeFluentIconList.h
+Examining ./src/cascadia/TerminalSettingsEditor/MainPage.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/ColorSchemes.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/EnumEntry.h
+Examining ./src/cascadia/TerminalSettingsEditor/pch.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/Profiles_Appearance.h
+Examining ./src/cascadia/TerminalSettingsEditor/Actions.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/NewTabMenu.h
+Examining ./src/cascadia/TerminalSettingsEditor/InteractionViewModel.h
+Examining ./src/cascadia/TerminalSettingsEditor/KeyChordListener.h
+Examining ./src/cascadia/TerminalSettingsEditor/Profiles_Terminal.h
+Examining ./src/cascadia/TerminalSettingsEditor/Extensions.h
+Examining ./src/cascadia/TerminalSettingsEditor/Interaction.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/Compatibility.h
+Examining ./src/cascadia/TerminalSettingsEditor/Compatibility.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/pch.h
+Examining ./src/cascadia/TerminalSettingsEditor/Utils.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/RenderingViewModel.h
+Examining ./src/cascadia/TerminalSettingsEditor/PercentageSignConverter.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/Profiles_Terminal.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/Profiles_Base_Orphaned.h
+Examining ./src/cascadia/TerminalSettingsEditor/Interaction.h
+Examining ./src/cascadia/TerminalSettingsEditor/ColorSchemeViewModel.h
+Examining ./src/cascadia/TerminalSettingsEditor/ViewModelHelpers.idl.h
+Examining ./src/cascadia/TerminalSettingsEditor/MainPage.h
+Examining ./src/cascadia/TerminalSettingsEditor/Launch.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/ActionsViewModel.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/NewTabMenu.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/NewTabMenuViewModel.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/ColorSchemesPageViewModel.h
+Examining ./src/cascadia/TerminalSettingsEditor/LaunchViewModel.h
+Examining ./src/cascadia/TerminalSettingsEditor/GlobalAppearanceViewModel.h
+Examining ./src/cascadia/TerminalSettingsEditor/InteractionViewModel.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/SettingContainer.h
+Examining ./src/cascadia/TerminalSettingsEditor/ColorSchemesPageViewModel.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/TerminalColorConverters.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/GlobalAppearance.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/init.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/GlobalAppearanceViewModel.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/AddProfile.h
+Examining ./src/cascadia/TerminalSettingsEditor/AddProfile.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/ProfileViewModel.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/NewTabMenuViewModel.h
+Examining ./src/cascadia/TerminalSettingsEditor/Profiles_Advanced.h
+Examining ./src/cascadia/TerminalSettingsEditor/PreviewConnection.h
+Examining ./src/cascadia/TerminalSettingsEditor/ColorSchemes.h
+Examining ./src/cascadia/TerminalSettingsEditor/NullableColorPicker.h
+Examining ./src/cascadia/TerminalSettingsEditor/LaunchViewModel.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/Profiles_Base_Orphaned.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/PercentageSignConverter.h
+Examining ./src/cascadia/TerminalSettingsEditor/Extensions.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/RenderingViewModel.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/EditColorScheme.h
+Examining ./src/cascadia/TerminalSettingsEditor/ColorSchemeViewModel.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/Appearances.h
+Examining ./src/cascadia/TerminalSettingsEditor/SettingContainer.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/Profiles_Advanced.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/KeyChordListener.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/Utils.h
+Examining ./src/cascadia/TerminalSettingsEditor/Profiles_Appearance.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/Profiles_Base.h
+Examining ./src/cascadia/TerminalSettingsEditor/Profiles_Base.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/ActionsViewModel.h
+Examining ./src/cascadia/TerminalSettingsEditor/NullableColorPicker.cpp
+Examining ./src/cascadia/TerminalSettingsEditor/Launch.h
+Examining ./src/cascadia/TerminalSettingsEditor/Rendering.h
+Examining ./src/cascadia/LocalTests_TerminalApp/pch.cpp
+Examining ./src/cascadia/LocalTests_TerminalApp/FilteredCommandTests.cpp
+Examining ./src/cascadia/LocalTests_TerminalApp/pch.h
+Examining ./src/cascadia/LocalTests_TerminalApp/CommandlineTest.cpp
+Examining ./src/cascadia/LocalTests_TerminalApp/CppWinrtTailored.h
+Examining ./src/cascadia/LocalTests_TerminalApp/TabTests.cpp
+Examining ./src/cascadia/LocalTests_TerminalApp/TestHostApp/pch.cpp
+Examining ./src/cascadia/LocalTests_TerminalApp/TestHostApp/UnitTestApp.xaml.h
+Examining ./src/cascadia/LocalTests_TerminalApp/TestHostApp/pch.h
+Examining ./src/cascadia/LocalTests_TerminalApp/TestHostApp/UnitTestApp.xaml.cpp
+Examining ./src/cascadia/LocalTests_TerminalApp/SettingsTests.cpp
+Examining ./src/cascadia/ElevateShim/resource.h
+Examining ./src/cascadia/ElevateShim/elevate-shim.cpp
+Examining ./src/cascadia/ut_app/precomp.cpp
+Examining ./src/cascadia/ut_app/JsonUtilsTests.cpp
+Examining ./src/cascadia/ut_app/FzfTests.cpp
+Examining ./src/cascadia/ut_app/precomp.h
+Examining ./src/cascadia/UIMarkdown/CodeBlock.cpp
+Examining ./src/cascadia/UIMarkdown/Builder.cpp
+Examining ./src/cascadia/UIMarkdown/pch.cpp
+Examining ./src/cascadia/UIMarkdown/Builder.h
+Examining ./src/cascadia/UIMarkdown/pch.h
+Examining ./src/cascadia/UIMarkdown/MarkdownToXaml.h
+Examining ./src/cascadia/UIMarkdown/MarkdownToXaml.cpp
+Examining ./src/cascadia/UIMarkdown/CodeBlock.h
+Examining ./src/cascadia/UIMarkdown/init.cpp
+Examining ./src/cascadia/WindowsTerminal/NonClientIslandWindow.h
+Examining ./src/cascadia/WindowsTerminal/resource.h
+Examining ./src/cascadia/WindowsTerminal/pch.cpp
+Examining ./src/cascadia/WindowsTerminal/WindowEmperor.h
+Examining ./src/cascadia/WindowsTerminal/pch.h
+Examining ./src/cascadia/WindowsTerminal/NonClientIslandWindow.cpp
+Examining ./src/cascadia/WindowsTerminal/WindowEmperor.cpp
+Examining ./src/cascadia/WindowsTerminal/IslandWindow.h
+Examining ./src/cascadia/WindowsTerminal/icon.cpp
+Examining ./src/cascadia/WindowsTerminal/BaseWindow.h
+Examining ./src/cascadia/WindowsTerminal/AppHost.h
+Examining ./src/cascadia/WindowsTerminal/IslandWindow.cpp
+Examining ./src/cascadia/WindowsTerminal/VirtualDesktopUtils.cpp
+Examining ./src/cascadia/WindowsTerminal/VirtualDesktopUtils.h
+Examining ./src/cascadia/WindowsTerminal/main.cpp
+Examining ./src/cascadia/WindowsTerminal/icon.h
+Examining ./src/cascadia/WindowsTerminal/AppHost.cpp
+Examining ./src/cascadia/TerminalConnection/CTerminalHandoff.cpp
+Examining ./src/cascadia/TerminalConnection/CTerminalHandoff.h
+Examining ./src/cascadia/TerminalConnection/pch.cpp
+Examining ./src/cascadia/TerminalConnection/AzureConnection.cpp
+Examining ./src/cascadia/TerminalConnection/pch.h
+Examining ./src/cascadia/TerminalConnection/EchoConnection.cpp
+Examining ./src/cascadia/TerminalConnection/ConnectionInformation.h
+Examining ./src/cascadia/TerminalConnection/BaseTerminalConnection.h
+Examining ./src/cascadia/TerminalConnection/init.cpp
+Examining ./src/cascadia/TerminalConnection/ConptyConnection.h
+Examining ./src/cascadia/TerminalConnection/EchoConnection.h
+Examining ./src/cascadia/TerminalConnection/ConptyConnection.cpp
+Examining ./src/cascadia/TerminalConnection/AzureClient.h
+Examining ./src/cascadia/TerminalConnection/AzureClientID.h
+Examining ./src/cascadia/TerminalConnection/ConnectionInformation.cpp
+Examining ./src/cascadia/TerminalConnection/AzureConnection.h
+Examining ./src/cascadia/inc/ControlProperties.h
+Examining ./src/cascadia/inc/cppwinrt_utils.h
+Examining ./src/cascadia/UIHelpers/pch.cpp
+Examining ./src/cascadia/UIHelpers/TextMenuFlyout.cpp
+Examining ./src/cascadia/UIHelpers/IconPathConverter.h
+Examining ./src/cascadia/UIHelpers/pch.h
+Examining ./src/cascadia/UIHelpers/Converters.cpp
+Examining ./src/cascadia/UIHelpers/IconPathConverter.cpp
+Examining ./src/cascadia/UIHelpers/Converters.h
+Examining ./src/cascadia/UIHelpers/init.cpp
+Examining ./src/cascadia/UIHelpers/ResourceString.cpp
+Examining ./src/cascadia/UIHelpers/TextMenuFlyout.h
+Examining ./src/cascadia/UIHelpers/ResourceString.h
+Examining ./src/cascadia/TerminalControl/ScrollBarVisualStateManager.h
+Examining ./src/cascadia/TerminalControl/pch.cpp
+Examining ./src/cascadia/TerminalControl/HwndTerminal.cpp
+Examining ./src/cascadia/TerminalControl/XamlLights.cpp
+Examining ./src/cascadia/TerminalControl/TermControlAutomationPeer.h
+Examining ./src/cascadia/TerminalControl/ControlInteractivity.h
+Examining ./src/cascadia/TerminalControl/pch.h
+Examining ./src/cascadia/TerminalControl/XamlLights.h
+Examining ./src/cascadia/TerminalControl/SearchBoxControl.cpp
+Examining ./src/cascadia/TerminalControl/XamlUiaTextRange.cpp
+Examining ./src/cascadia/TerminalControl/dll/pch.cpp
+Examining ./src/cascadia/TerminalControl/dll/pch.h
+Examining ./src/cascadia/TerminalControl/InteractivityAutomationPeer.h
+Examining ./src/cascadia/TerminalControl/InteractivityAutomationPeer.cpp
+Examining ./src/cascadia/TerminalControl/TermControl.h
+Examining ./src/cascadia/TerminalControl/EventArgs.cpp
+Examining ./src/cascadia/TerminalControl/SearchBoxControl.h
+Examining ./src/cascadia/TerminalControl/HwndTerminal.hpp
+Examining ./src/cascadia/TerminalControl/ScrollBarVisualStateManager.cpp
+Examining ./src/cascadia/TerminalControl/EventArgs.h
+Examining ./src/cascadia/TerminalControl/ControlCore.h
+Examining ./src/cascadia/TerminalControl/init.cpp
+Examining ./src/cascadia/TerminalControl/TermControlAutomationPeer.cpp
+Examining ./src/cascadia/TerminalControl/ControlInteractivity.cpp
+Examining ./src/cascadia/TerminalControl/HwndTerminalAutomationPeer.cpp
+Examining ./src/cascadia/TerminalControl/TermControl.cpp
+Examining ./src/cascadia/TerminalControl/KeyChord.cpp
+Examining ./src/cascadia/TerminalControl/KeyChord.h
+Examining ./src/cascadia/TerminalControl/HwndTerminalAutomationPeer.hpp
+Examining ./src/cascadia/TerminalControl/XamlUiaTextRange.h
+Examining ./src/cascadia/TerminalControl/ControlCore.cpp
+Examining ./src/cascadia/TerminalSettingsAppAdapterLib/TerminalSettings.h
+Examining ./src/cascadia/TerminalSettingsAppAdapterLib/pch.cpp
+Examining ./src/cascadia/TerminalSettingsAppAdapterLib/pch.h
+Examining ./src/cascadia/TerminalSettingsAppAdapterLib/TerminalSettings.cpp
+Examining ./src/cascadia/ShellExtension/pch.cpp
+Examining ./src/cascadia/ShellExtension/pch.h
+Examining ./src/cascadia/ShellExtension/OpenTerminalHere.cpp
+Examining ./src/cascadia/ShellExtension/OpenTerminalHere.h
+Examining ./src/cascadia/ShellExtension/dllmain.cpp
+Examining ./src/cascadia/wt/resource.h
+Examining ./src/cascadia/wt/shim.cpp
+Examining ./src/tsf/precomp.cpp
+Examining ./src/tsf/Implementation.h
+Examining ./src/tsf/Handle.h
+Examining ./src/tsf/precomp.h
+Examining ./src/tsf/Implementation.cpp
+Examining ./src/tsf/Handle.cpp
+Examining ./src/inc/consoletaeftemplates.hpp
+Examining ./src/inc/conpty-static.h
+Examining ./src/inc/TestUtils.h
+Examining ./src/inc/til.h
+Examining ./src/inc/conattrs.hpp
+Examining ./src/inc/conint.h
+Examining ./src/inc/test/CommonState.hpp
+Examining ./src/inc/til/u8u16convert.h
+Examining ./src/inc/til/hash.h
+Examining ./src/inc/til/coalesce.h
+Examining ./src/inc/til/bytes.h
+Examining ./src/inc/til/enumset.h
+Examining ./src/inc/til/spsc.h
+Examining ./src/inc/til/flat_set.h
+Examining ./src/inc/til/small_vector.h
+Examining ./src/inc/til/pmr.h
+Examining ./src/inc/til/color.h
+Examining ./src/inc/til/math.h
+Examining ./src/inc/til/replace.h
+Examining ./src/inc/til/regex.h
+Examining ./src/inc/til/static_map.h
+Examining ./src/inc/til/bit.h
+Examining ./src/inc/til/point.h
+Examining ./src/inc/til/rand.h
+Examining ./src/inc/til/throttled_func.h
+Examining ./src/inc/til/atomic.h
+Examining ./src/inc/til/ticket_lock.h
+Examining ./src/inc/til/operators.h
+Examining ./src/inc/til/unicode.h
+Examining ./src/inc/til/env.h
+Examining ./src/inc/til/rle.h
+Examining ./src/inc/til/mutex.h
+Examining ./src/inc/til/winrt.h
+Examining ./src/inc/til/generational.h
+Examining ./src/inc/til/size.h
+Examining ./src/inc/til/string.h
+Examining ./src/inc/til/type_traits.h
+Examining ./src/inc/til/rect.h
+Examining ./src/inc/til/io.h
+Examining ./src/inc/til/at.h
+Examining ./src/inc/til/latch.h
+Examining ./src/inc/til/colorbrewer.h
+Examining ./src/inc/DefaultSettings.h
+Examining ./src/inc/unicode.hpp
+Examining ./src/inc/HostSignals.hpp
+Examining ./src/inc/CppCoreCheck/warnings.h
+Examining ./src/inc/HostAndPropsheetIncludes.h
+Examining ./src/inc/winrtTaefTemplates.hpp
+Examining ./src/inc/cpl_core.h
+Examining ./src/inc/WilErrorReporting.h
+Examining ./src/inc/LibraryIncludes.h
+Examining ./src/til/precomp.cpp
+Examining ./src/til/ut_til/CoalesceTests.cpp
+Examining ./src/til/ut_til/PointTests.cpp
+Examining ./src/til/ut_til/RectangleTests.cpp
+Examining ./src/til/ut_til/mutex.cpp
+Examining ./src/til/ut_til/SmallVectorTests.cpp
+Examining ./src/til/ut_til/OperatorTests.cpp
+Examining ./src/til/ut_til/ReplaceTests.cpp
+Examining ./src/til/ut_til/StaticMapTests.cpp
+Examining ./src/til/ut_til/GenerationalTests.cpp
+Examining ./src/til/ut_til/FlatSetTests.cpp
+Examining ./src/til/ut_til/EnumSetTests.cpp
+Examining ./src/til/ut_til/EnvTests.cpp
+Examining ./src/til/ut_til/SizeTests.cpp
+Examining ./src/til/ut_til/UnicodeTests.cpp
+Examining ./src/til/ut_til/RunLengthEncodingTests.cpp
+Examining ./src/til/ut_til/string.cpp
+Examining ./src/til/ut_til/SPSCTests.cpp
+Examining ./src/til/ut_til/u8u16convertTests.cpp
+Examining ./src/til/ut_til/MathTests.cpp
+Examining ./src/til/ut_til/ColorTests.cpp
+Examining ./src/til/ut_til/throttled_func.cpp
+Examining ./src/til/ut_til/HashTests.cpp
+Examining ./src/til/ut_til/BaseTests.cpp
+Examining ./src/til/precomp.h
+Examining ./src/winconpty/precomp.cpp
+Examining ./src/winconpty/device.h
+Examining ./src/winconpty/precomp.h
+Examining ./src/winconpty/winconpty.h
+Examining ./src/winconpty/winconpty.cpp
+Examining ./src/winconpty/ft_pty/precomp.cpp
+Examining ./src/winconpty/ft_pty/precomp.h
+Examining ./src/winconpty/ft_pty/ConPtyTests.cpp
+Examining ./src/buffer/out/precomp.cpp
+Examining ./src/buffer/out/OutputCellIterator.cpp
+Examining ./src/buffer/out/OutputCellRect.cpp
+Examining ./src/buffer/out/cursor.h
+Examining ./src/buffer/out/textBufferTextIterator.cpp
+Examining ./src/buffer/out/Row.cpp
+Examining ./src/buffer/out/OutputCellView.hpp
+Examining ./src/buffer/out/search.h
+Examining ./src/buffer/out/DbcsAttribute.hpp
+Examining ./src/buffer/out/search.cpp
+Examining ./src/buffer/out/textBufferCellIterator.cpp
+Examining ./src/buffer/out/OutputCellIterator.hpp
+Examining ./src/buffer/out/OutputCell.cpp
+Examining ./src/buffer/out/textBufferTextIterator.hpp
+Examining ./src/buffer/out/ut_textbuffer/precomp.cpp
+Examining ./src/buffer/out/ut_textbuffer/UTextAdapterTests.cpp
+Examining ./src/buffer/out/ut_textbuffer/ReflowTests.cpp
+Examining ./src/buffer/out/ut_textbuffer/precomp.h
+Examining ./src/buffer/out/ut_textbuffer/TextAttributeTests.cpp
+Examining ./src/buffer/out/ut_textbuffer/TextColorTests.cpp
+Examining ./src/buffer/out/Row.hpp
+Examining ./src/buffer/out/ImageSlice.cpp
+Examining ./src/buffer/out/UTextAdapter.cpp
+Examining ./src/buffer/out/TextAttribute.cpp
+Examining ./src/buffer/out/textBuffer.hpp
+Examining ./src/buffer/out/precomp.h
+Examining ./src/buffer/out/TextAttribute.hpp
+Examining ./src/buffer/out/cursor.cpp
+Examining ./src/buffer/out/OutputCellView.cpp
+Examining ./src/buffer/out/textBufferCellIterator.hpp
+Examining ./src/buffer/out/TextColor.cpp
+Examining ./src/buffer/out/TextColor.h
+Examining ./src/buffer/out/OutputCell.hpp
+Examining ./src/buffer/out/OutputCellRect.hpp
+Examining ./src/buffer/out/UTextAdapter.h
+Examining ./src/buffer/out/Marks.hpp
+Examining ./src/buffer/out/ImageSlice.hpp
+Examining ./src/buffer/out/textBuffer.cpp
+Examining ./src/buffer/out/LineRendition.hpp
+Examining ./src/propslib/ShortcutSerialization.hpp
+Examining ./src/propslib/precomp.cpp
+Examining ./src/propslib/TrueTypeFontList.hpp
+Examining ./src/propslib/RegistrySerialization.cpp
+Examining ./src/propslib/ShortcutSerialization.cpp
+Examining ./src/propslib/TrueTypeFontList.cpp
+Examining ./src/propslib/DelegationConfig.cpp
+Examining ./src/propslib/RegistrySerialization.hpp
+Examining ./src/propslib/precomp.h
+Examining ./src/propslib/conpropsp.hpp
+Examining ./src/propslib/DelegationConfig.hpp
+Examining ./src/audio/midi/precomp.cpp
+Examining ./src/audio/midi/MidiAudio.hpp
+Examining ./src/audio/midi/precomp.h
+Examining ./src/audio/midi/MidiAudio.cpp
+Examining ./src/terminal/input/precomp.cpp
+Examining ./src/terminal/input/mouseInputState.cpp
+Examining ./src/terminal/input/terminalInput.cpp
+Examining ./src/terminal/input/terminalInput.hpp
+Examining ./src/terminal/input/mouseInput.cpp
+Examining ./src/terminal/input/precomp.h
+Examining ./src/terminal/parser/ascii.hpp
+Examining ./src/terminal/parser/InputStateMachineEngine.hpp
+Examining ./src/terminal/parser/precomp.cpp
+Examining ./src/terminal/parser/tracing.cpp
+Examining ./src/terminal/parser/IStateMachineEngine.hpp
+Examining ./src/terminal/parser/ut_parser/StateMachineTest.cpp
+Examining ./src/terminal/parser/ut_parser/OutputEngineTest.cpp
+Examining ./src/terminal/parser/ut_parser/Base64Test.cpp
+Examining ./src/terminal/parser/ut_parser/InputEngineTest.cpp
+Examining ./src/terminal/parser/stateMachine.cpp
+Examining ./src/terminal/parser/base64.cpp
+Examining ./src/terminal/parser/stateMachine.hpp
+Examining ./src/terminal/parser/base64.hpp
+Examining ./src/terminal/parser/ft_fuzzer/VTCommandFuzzer.cpp
+Examining ./src/terminal/parser/ft_fuzzer/fuzzing_logic.h
+Examining ./src/terminal/parser/ft_fuzzer/stdafx.h
+Examining ./src/terminal/parser/ft_fuzzer/stdafx.cpp
+Examining ./src/terminal/parser/ft_fuzzer/string_helper.h
+Examining ./src/terminal/parser/ft_fuzzer/memallocator.h
+Examining ./src/terminal/parser/ft_fuzzer/fuzzing_directed.h
+Examining ./src/terminal/parser/tracing.hpp
+Examining ./src/terminal/parser/OutputStateMachineEngine.cpp
+Examining ./src/terminal/parser/OutputStateMachineEngine.hpp
+Examining ./src/terminal/parser/precomp.h
+Examining ./src/terminal/parser/ft_fuzzwrapper/precomp.cpp
+Examining ./src/terminal/parser/ft_fuzzwrapper/echoDispatch.cpp
+Examining ./src/terminal/parser/ft_fuzzwrapper/precomp.h
+Examining ./src/terminal/parser/ft_fuzzwrapper/echoDispatch.hpp
+Examining ./src/terminal/parser/ft_fuzzwrapper/main.cpp
+Examining ./src/terminal/parser/InputStateMachineEngine.cpp
+Examining ./src/terminal/adapter/adaptDispatch.cpp
+Examining ./src/terminal/adapter/InteractDispatch.cpp
+Examining ./src/terminal/adapter/precomp.cpp
+Examining ./src/terminal/adapter/ut_adapter/inputTest.cpp
+Examining ./src/terminal/adapter/ut_adapter/adapterTest.cpp
+Examining ./src/terminal/adapter/ut_adapter/MouseInputTest.cpp
+Examining ./src/terminal/adapter/ut_adapter/WexHelpers.hpp
+Examining ./src/terminal/adapter/ITerminalApi.hpp
+Examining ./src/terminal/adapter/FontBuffer.hpp
+Examining ./src/terminal/adapter/adaptDispatchGraphics.cpp
+Examining ./src/terminal/adapter/termDispatch.hpp
+Examining ./src/terminal/adapter/MacroBuffer.cpp
+Examining ./src/terminal/adapter/PageManager.cpp
+Examining ./src/terminal/adapter/PageManager.hpp
+Examining ./src/terminal/adapter/InteractDispatch.hpp
+Examining ./src/terminal/adapter/DispatchTypes.hpp
+Examining ./src/terminal/adapter/IInteractDispatch.hpp
+Examining ./src/terminal/adapter/FontBuffer.cpp
+Examining ./src/terminal/adapter/charsets.hpp
+Examining ./src/terminal/adapter/MacroBuffer.hpp
+Examining ./src/terminal/adapter/precomp.h
+Examining ./src/terminal/adapter/terminalOutput.hpp
+Examining ./src/terminal/adapter/ITermDispatch.hpp
+Examining ./src/terminal/adapter/SixelParser.cpp
+Examining ./src/terminal/adapter/SixelParser.hpp
+Examining ./src/terminal/adapter/terminalOutput.cpp
+Examining ./src/terminal/adapter/adaptDispatch.hpp
+Examining ./src/propsheet/OptionsPage.cpp
+Examining ./src/propsheet/precomp.cpp
+Examining ./src/propsheet/globals.h
+Examining ./src/propsheet/dll.cpp
+Examining ./src/propsheet/TerminalPropsheetPage.cpp
+Examining ./src/propsheet/LayoutPage.h
+Examining ./src/propsheet/LayoutPage.cpp
+Examining ./src/propsheet/menu.h
+Examining ./src/propsheet/console.h
+Examining ./src/propsheet/registry.cpp
+Examining ./src/propsheet/util.cpp
+Examining ./src/propsheet/ColorControl.h
+Examining ./src/propsheet/OptionsPage.h
+Examining ./src/propsheet/ColorControl.cpp
+Examining ./src/propsheet/fontdlg.cpp
+Examining ./src/propsheet/dbcs.cpp
+Examining ./src/propsheet/init.cpp
+Examining ./src/propsheet/dialogs.h
+Examining ./src/propsheet/ColorsPage.h
+Examining ./src/propsheet/preview.cpp
+Examining ./src/propsheet/ColorsPage.cpp
+Examining ./src/propsheet/TerminalPropsheetPage.h
+Examining ./src/propsheet/console.cpp
+Examining ./src/propsheet/precomp.h
+Examining ./src/propsheet/fontdlg.h
+Examining ./src/propsheet/globals.cpp
+Examining ./src/propsheet/font.h
+Examining ./src/propsheet/misc.cpp
+Examining ./src/propsheet/PropSheetHandler.cpp
+Examining ./src/tools/buffersize/main.cpp
+Examining ./src/tools/vtpipeterm/main.cpp
+Examining ./src/tools/fontlist/main.cpp
+Examining ./src/tools/test/precomp.h
+Examining ./src/tools/test/main.cpp
+Examining ./src/tools/integrity/exeuwp/consoleuwp.cpp
+Examining ./src/tools/integrity/lib/util.h
+Examining ./src/tools/integrity/lib/util.cpp
+Examining ./src/tools/integrity/exewin32/main.cpp
+Examining ./src/tools/benchcat/crt.cpp
+Examining ./src/tools/benchcat/main.cpp
+Examining ./src/tools/scratch/main.cpp
+Examining ./src/tools/ConsoleBench/pch.cpp
+Examining ./src/tools/ConsoleBench/pch.h
+Examining ./src/tools/ConsoleBench/utils.h
+Examining ./src/tools/ConsoleBench/utils.cpp
+Examining ./src/tools/ConsoleBench/main.cpp
+Examining ./src/tools/ConsoleBench/arena.cpp
+Examining ./src/tools/ConsoleBench/conhost.h
+Examining ./src/tools/ConsoleBench/arena.h
+Examining ./src/tools/ConsoleBench/conhost.cpp
+Examining ./src/tools/pixels/precomp.h
+Examining ./src/tools/pixels/main.cpp
+Examining ./src/tools/nihilist/main.cpp
+Examining ./src/tools/echokey/main.cpp
+Examining ./src/tools/U8U16Test/U8U16Test.hpp
+Examining ./src/tools/U8U16Test/U8U16Test.cpp
+Examining ./src/tools/U8U16Test/main.cpp
+Examining ./src/tools/lnkd/precomp.h
+Examining ./src/tools/lnkd/main.cpp
+Examining ./src/tools/RenderingTests/main.cpp
+Examining ./src/tools/closetest/closetest.cpp
+Examining ./src/tools/ConsoleMonitor/pch.cpp
+Examining ./src/tools/ConsoleMonitor/pch.h
+Examining ./src/tools/ConsoleMonitor/main.cpp
+
+FINAL RESULTS:
+
+./src/cascadia/TerminalApp/AboutDialog.cpp:48:  [4] (shell) ShellExecute:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+./src/cascadia/TerminalApp/AboutDialog.cpp:50:  [4] (shell) ShellExecute:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+./src/cascadia/TerminalApp/AboutDialog.cpp:58:  [4] (shell) ShellExecute:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+./src/cascadia/TerminalApp/TerminalPage.cpp:3026:  [4] (shell) ShellExecute:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+./src/cascadia/TerminalApp/TerminalPage.cpp:3369:  [4] (shell) ShellExecute:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+./src/cascadia/TerminalApp/TerminalPage.cpp:3372:  [4] (shell) ShellExecute:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+./src/cascadia/TerminalApp/TerminalPage.cpp:3377:  [4] (shell) ShellExecute:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+./src/cascadia/TerminalApp/TerminalPage.cpp:3380:  [4] (shell) ShellExecute:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+./src/cascadia/TerminalControl/ControlCore.cpp:1672:  [4] (shell) ShellExecute:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+./src/propsheet/OptionsPage.cpp:281:  [4] (shell) ShellExecute:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+./src/propsheet/TerminalPropsheetPage.cpp:440:  [4] (shell) ShellExecute:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+./src/tools/closetest/closetest.cpp:278:  [4] (format) vsnprintf:
+  If format strings can be influenced by an attacker, they can be exploited,
+  and note that sprintf variations do not always \0-terminate (CWE-134). Use
+  a constant for the format specification.
+./src/tools/echokey/main.cpp:43:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+./samples/ConPTY/EchoCon/EchoCon/EchoCon.cpp:45:  [3] (shell) CreateProcess:
+  This causes a new process to execute and is difficult to use safely
+  (CWE-78). Specify the application path in the first argument, NOT as part
+  of the second, or embedded spaces could allow an attacker to force a
+  different program to run.
+./samples/ConPTY/EchoCon/EchoCon/EchoCon.cpp:45:  [3] (shell) CreateProcess:
+  This causes a new process to execute and is difficult to use safely
+  (CWE-78). Specify the application path in the first argument, NOT as part
+  of the second, or embedded spaces could allow an attacker to force a
+  different program to run.
+./src/host/ut_host/UtilsTests.cpp:36:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+./src/propsheet/util.cpp:19:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use registry entry or GetWindowsDirectory to
+  find library path, if you aren't already.
+./dep/Console/conmsgl3.h:215:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./dep/Console/winconp.h:152:  [2] (buffer) TCHAR:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./dep/Console/winconp.h:153:  [2] (buffer) TCHAR:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./samples/ConPTY/EchoCon/EchoCon/EchoCon.cpp:173:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/audio/midi/MidiAudio.cpp:122:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/buffer/out/ImageSlice.cpp:83:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/buffer/out/Row.cpp:880:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/buffer/out/UTextAdapter.cpp:25:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/buffer/out/UTextAdapter.cpp:132:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/buffer/out/UTextAdapter.cpp:261:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/buffer/out/UTextAdapter.cpp:350:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/buffer/out/textBuffer.cpp:2745:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/cascadia/ElevateShim/elevate-shim.cpp:50:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/cascadia/TerminalApp/TerminalPage.cpp:68:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+./src/cascadia/TerminalApp/TerminalPage.cpp:69:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+./src/cascadia/TerminalApp/TerminalPage.cpp:91:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+./src/cascadia/TerminalApp/TerminalPage.cpp:132:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/cascadia/TerminalApp/TerminalPage.cpp:2935:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+./src/cascadia/TerminalApp/TerminalPage.cpp:3309:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+./src/cascadia/TerminalConnection/ConptyConnection.cpp:749:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/cascadia/TerminalControl/ControlCore.cpp:1845:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/cascadia/TerminalControl/ControlCore.cpp:1847:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/cascadia/TerminalControl/ControlCore.cpp:1864:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/cascadia/TerminalControl/TermControl.cpp:1323:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/cascadia/TerminalControl/TermControl.cpp:1642:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/cascadia/TerminalControl/TermControl.cpp:1691:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/cascadia/TerminalControl/TermControl.cpp:1728:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/cascadia/TerminalSettingsEditor/Appearances.cpp:59:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/cascadia/TerminalSettingsEditor/Appearances.cpp:316:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/cascadia/TerminalSettingsEditor/ProfileViewModel.cpp:312:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/cascadia/TerminalSettingsEditor/ProfileViewModel.cpp:315:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/cascadia/TerminalSettingsModel/ActionArgs.cpp:968:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/cascadia/TerminalSettingsModel/CascadiaSettingsSerialization.cpp:174:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/cascadia/TerminalSettingsModel/VsDevShellGenerator.cpp:49:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/cascadia/TerminalSettingsModel/WslDistroGenerator.cpp:158:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/cascadia/UnitTests_TerminalCore/InputTest.cpp:21:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/cascadia/WinRTUtils/inc/ThrottledFunc.h:44:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/cascadia/WindowsTerminal/VirtualDesktopUtils.cpp:53:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/cascadia/WindowsTerminal/WindowEmperor.cpp:1115:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/cascadia/WindowsTerminal/WindowEmperor.cpp:1117:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/host/VtInputThread.cpp:62:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/VtIo.cpp:333:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/host/VtIo.cpp:339:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/host/VtIo.cpp:364:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/VtIo.cpp:371:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/VtIo.cpp:374:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/VtIo.cpp:658:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/_stream.cpp:146:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/_stream.cpp:298:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/host/_stream.cpp:542:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/host/directio.cpp:166:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/directio.cpp:170:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/directio.cpp:171:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/host/directio.cpp:192:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/directio.cpp:216:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/directio.cpp:217:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/host/ft_host/API_BufferTests.cpp:71:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/ft_host/API_BufferTests.cpp:114:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/ft_host/API_PolicyTests.cpp:36:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/ft_host/API_PolicyTests.cpp:37:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/ft_host/CJK_DbcsTests.cpp:1545:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/ft_host/CJK_DbcsTests.cpp:1590:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/ft_host/CJK_DbcsTests.cpp:1784:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/ft_host/Message_KeyPressTests.cpp:437:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/inputBuffer.cpp:89:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/inputBuffer.cpp:422:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/misc.cpp:82:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/host/readDataCooked.cpp:1344:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/renderFontDefaults.cpp:25:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/stream.cpp:185:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/tracing.cpp:55:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/tracing.cpp:77:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/ut_host/ApiRoutinesTests.cpp:220:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/ut_host/ApiRoutinesTests.cpp:237:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/ut_host/ApiRoutinesTests.cpp:283:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/ut_host/ApiRoutinesTests.cpp:300:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/host/ut_host/VtIoTests.cpp:75:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/inc/til/hash.h:72:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/inc/til/hash.h:122:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/inc/til/hash.h:129:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/inc/til/throttled_func.h:51:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/inc/til/u8u16convert.h:29:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/inc/til/u8u16convert.h:42:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/inc/til/u8u16convert.h:73:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/inc/til/u8u16convert.h:123:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/inc/til/u8u16convert.h:161:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/interactivity/win32/Clipboard.cpp:225:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/propsheet/console.cpp:56:  [2] (buffer) TCHAR:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/propslib/DelegationConfig.cpp:253:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/renderer/atlas/AtlasEngine.api.cpp:258:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/renderer/atlas/AtlasEngine.cpp:578:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/renderer/atlas/AtlasEngine.cpp:724:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/renderer/atlas/AtlasEngine.cpp:728:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/renderer/atlas/BackendD2D.cpp:978:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/renderer/atlas/BackendD2D.h:79:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/renderer/atlas/BackendD3D.cpp:1005:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/renderer/atlas/BackendD3D.cpp:1092:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/renderer/atlas/BackendD3D.cpp:2295:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/renderer/atlas/BackendD3D.cpp:2321:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/renderer/atlas/BackendD3D.h:343:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/renderer/atlas/dwrite.cpp:167:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/renderer/gdi/paint.cpp:388:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/renderer/gdi/paint.cpp:395:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/server/ApiDispatchers.cpp:591:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/server/ApiDispatchers.cpp:644:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/server/ApiDispatchers.cpp:1246:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/server/ApiDispatchers.cpp:1879:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/server/ApiMessage.cpp:38:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/terminal/adapter/DispatchTypes.hpp:64:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/terminal/adapter/ut_adapter/MouseInputTest.cpp:97:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/terminal/adapter/ut_adapter/adapterTest.cpp:1553:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/terminal/adapter/ut_adapter/adapterTest.cpp:1587:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/terminal/adapter/ut_adapter/adapterTest.cpp:1616:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/terminal/adapter/ut_adapter/adapterTest.cpp:1641:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/terminal/adapter/ut_adapter/adapterTest.cpp:1685:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/terminal/adapter/ut_adapter/adapterTest.cpp:2096:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/terminal/adapter/ut_adapter/adapterTest.cpp:2135:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/terminal/adapter/ut_adapter/adapterTest.cpp:2162:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/terminal/adapter/ut_adapter/adapterTest.cpp:2170:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/terminal/adapter/ut_adapter/adapterTest.cpp:2176:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/terminal/adapter/ut_adapter/inputTest.cpp:536:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/terminal/adapter/ut_adapter/inputTest.cpp:545:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/terminal/parser/ft_fuzzer/VTCommandFuzzer.cpp:617:  [2] (integer) _wtoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+./src/terminal/parser/ft_fuzzwrapper/main.cpp:40:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/terminal/parser/ft_fuzzwrapper/main.cpp:56:  [2] (integer) _wtoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+./src/terminal/parser/ut_parser/Base64Test.cpp:42:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/terminal/parser/ut_parser/Base64Test.cpp:59:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/terminal/parser/ut_parser/OutputEngineTest.cpp:1520:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/til/ut_til/string.cpp:101:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/til/ut_til/string.cpp:102:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/tools/ConsoleBench/arena.cpp:242:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/tools/ConsoleBench/arena.cpp:249:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/tools/ConsoleBench/arena.h:96:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/tools/ConsoleBench/arena.h:122:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/tools/ConsoleBench/conhost.cpp:45:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/tools/ConsoleBench/conhost.cpp:141:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/tools/ConsoleMonitor/main.cpp:241:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/tools/RenderingTests/main.cpp:304:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/tools/U8U16Test/main.cpp:190:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/tools/U8U16Test/main.cpp:250:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/tools/U8U16Test/main.cpp:346:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/tools/U8U16Test/main.cpp:421:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/tools/benchcat/crt.cpp:8:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/tools/benchcat/crt.cpp:9:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/tools/benchcat/main.cpp:215:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/tools/benchcat/main.cpp:349:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/tools/benchcat/main.cpp:664:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/tools/benchcat/main.cpp:678:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/tools/closetest/closetest.cpp:530:  [2] (integer) _wtoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+./src/tools/echokey/main.cpp:177:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/tools/echokey/main.cpp:209:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/tools/vtpipeterm/main.cpp:97:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/tools/vtpipeterm/main.cpp:103:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/tools/vtpipeterm/main.cpp:142:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/tools/vtpipeterm/main.cpp:143:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/types/CodepointWidthDetector.cpp:1232:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/types/convert.cpp:39:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/types/convert.cpp:50:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/types/utils.cpp:31:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/types/utils.cpp:66:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/winconpty/ft_pty/ConPtyTests.cpp:67:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/cascadia/TerminalApp/TerminalPage.cpp:169:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/cascadia/TerminalApp/TerminalPage.cpp:2937:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/cascadia/TerminalConnection/AzureConnection.cpp:410:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/cascadia/TerminalConnection/AzureConnection.cpp:411:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/cascadia/TerminalConnection/AzureConnection.cpp:419:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/cascadia/TerminalConnection/ConptyConnection.cpp:569:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/cascadia/TerminalConnection/ConptyConnection.cpp:570:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/cascadia/TerminalConnection/ConptyConnection.cpp:764:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/cascadia/TerminalConnection/ConptyConnection.cpp:808:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/cascadia/TerminalConnection/ConptyConnection.cpp:831:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/cascadia/TerminalConnection/ConptyConnection.cpp:837:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/cascadia/TerminalControl/ControlCore.cpp:1868:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/cascadia/TerminalControl/ControlCore.cpp:1868:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/cascadia/TerminalControl/ControlCore.cpp:1875:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/cascadia/TerminalControl/ControlCore.cpp:1881:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/cascadia/TerminalControl/ControlCore.cpp:1883:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/cascadia/TerminalSettingsModel/CascadiaSettingsSerialization.cpp:180:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/cascadia/TerminalSettingsModel/Profile.cpp:483:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/cascadia/UnitTests_SettingsModel/TerminalSettingsTests.cpp:109:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/cascadia/WinRTUtils/LibraryResources.cpp:43:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/cascadia/WinRTUtils/LibraryResources.cpp:44:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/cascadia/WinRTUtils/inc/LibraryResources.h:32:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ApiRoutines.h:75:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ApiRoutines.h:80:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/VtInputThread.cpp:89:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/VtInputThread.cpp:128:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/VtInputThread.cpp:136:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/VtInputThread.cpp:154:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/VtInputThread.cpp:159:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/VtIo.cpp:828:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/VtIo.cpp:833:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/_stream.cpp:442:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/_stream.cpp:564:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/_stream.cpp:626:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ft_host/API_AliasTestsHelpers.hpp:40:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_AliasTestsHelpers.hpp:49:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_BufferTests.cpp:74:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ft_host/API_BufferTests.cpp:116:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ft_host/API_BufferTests.cpp:117:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ft_host/API_BufferTests.cpp:166:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ft_host/API_BufferTests.cpp:167:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ft_host/API_BufferTests.cpp:173:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ft_host/API_BufferTests.cpp:174:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ft_host/API_BufferTests.cpp:179:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ft_host/API_BufferTests.cpp:180:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ft_host/API_FileTests.cpp:113:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_FileTests.cpp:123:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_FileTests.cpp:133:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_FileTests.cpp:150:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_FileTests.cpp:257:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_FileTests.cpp:259:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_FileTests.cpp:275:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_FileTests.cpp:277:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_FileTests.cpp:296:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_FileTests.cpp:298:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_FileTests.cpp:315:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_FileTests.cpp:317:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_FileTests.cpp:337:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_FileTests.cpp:339:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_FileTests.cpp:356:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_FileTests.cpp:358:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_FileTests.cpp:453:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_FileTests.cpp:468:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_FillOutputTests.cpp:40:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ft_host/API_FillOutputTests.cpp:41:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ft_host/API_InputTests.cpp:333:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_InputTests.cpp:400:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_InputTests.cpp:590:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_MultipleInflightMessageTests.cpp:55:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ft_host/API_MultipleInflightMessageTests.cpp:70:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ft_host/API_MultipleInflightMessageTests.cpp:109:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ft_host/API_OutputTests.cpp:1014:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_OutputTests.cpp:1018:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_OutputTests.cpp:1020:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_TitleTests.cpp:173:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/API_TitleTests.cpp:257:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/CJK_DbcsTests.cpp:1367:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/CJK_DbcsTests.cpp:1394:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/CJK_DbcsTests.cpp:1410:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/CJK_DbcsTests.cpp:1451:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/CJK_DbcsTests.cpp:1548:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/CJK_DbcsTests.cpp:1595:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/CJK_DbcsTests.cpp:1605:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/CJK_DbcsTests.cpp:1617:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/CJK_DbcsTests.cpp:1649:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_host/CJK_DbcsTests.cpp:1785:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ft_host/CJK_DbcsTests.cpp:1787:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ft_host/CJK_DbcsTests.cpp:1788:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ft_host/CJK_DbcsTests.cpp:1789:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ft_host/CanaryTests.cpp:94:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ft_integrity/IntegrityTest.cpp:39:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/inputBuffer.cpp:96:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/inputBuffer.cpp:120:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ut_host/ApiRoutinesTests.cpp:364:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ut_host/ScreenBufferTests.cpp:2323:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ut_host/ScreenBufferTests.cpp:2399:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/host/ut_host/VtIoTests.cpp:80:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/host/ut_host/VtIoTests.cpp:81:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/inc/til/env.h:393:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/interactivity/win32/SystemConfigurationProvider.cpp:186:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/propsheet/fontdlg.cpp:980:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/propsheet/misc.cpp:106:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/propsheet/registry.cpp:870:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/propslib/DelegationConfig.cpp:303:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/propslib/TrueTypeFontList.cpp:99:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/server/DeviceHandle.cpp:103:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/server/Entrypoints.cpp:150:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/server/IApiRoutines.h:85:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/server/IApiRoutines.h:90:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/terminal/parser/ft_fuzzer/fuzzing_directed.h:991:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/terminal/parser/ft_fuzzer/fuzzing_directed.h:992:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/terminal/parser/ft_fuzzer/fuzzing_logic.h:175:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/terminal/parser/ft_fuzzer/fuzzing_logic.h:192:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/terminal/parser/ft_fuzzer/fuzzing_logic.h:305:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/terminal/parser/ft_fuzzer/fuzzing_logic.h:331:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/terminal/parser/ft_fuzzer/fuzzing_logic.h:371:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/terminal/parser/ft_fuzzer/fuzzing_logic.h:380:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/terminal/parser/ft_fuzzer/fuzzing_logic.h:386:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/terminal/parser/ft_fuzzer/fuzzing_logic.h:485:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/terminal/parser/ft_fuzzwrapper/main.cpp:32:  [1] (buffer) fgetc:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/terminal/parser/ft_fuzzwrapper/main.cpp:39:  [1] (buffer) fgetc:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/ConsoleBench/arena.cpp:206:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/tools/ConsoleBench/arena.cpp:227:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/ConsoleBench/arena.cpp:227:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/ConsoleBench/arena.cpp:231:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/ConsoleBench/conhost.cpp:50:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/tools/ConsoleBench/main.cpp:290:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/ConsoleBench/main.cpp:297:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/ConsoleBench/main.cpp:309:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/ConsoleBench/main.cpp:316:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/ConsoleBench/main.cpp:338:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/ConsoleBench/main.cpp:340:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/ConsoleBench/main.cpp:340:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/ConsoleBench/main.cpp:369:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/ConsoleBench/main.cpp:379:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/ConsoleBench/main.cpp:391:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/ConsoleBench/main.cpp:401:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/ConsoleBench/main.cpp:553:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/ConsoleBench/main.cpp:554:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/RenderingTests/main.cpp:91:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/tools/RenderingTests/main.cpp:168:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/tools/RenderingTests/main.cpp:221:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/tools/benchcat/main.cpp:230:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/tools/benchcat/main.cpp:550:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/benchcat/main.cpp:550:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/benchcat/main.cpp:553:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/benchcat/main.cpp:553:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/integrity/lib/util.cpp:43:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/tools/test/main.cpp:66:  [1] (buffer) getchar:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/vtpipeterm/main.cpp:79:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/tools/vtpipeterm/main.cpp:155:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/vtpipeterm/main.cpp:156:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/vtpipeterm/main.cpp:164:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/vtpipeterm/main.cpp:204:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/vtpipeterm/main.cpp:205:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/vtpipeterm/main.cpp:215:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/vtpipeterm/main.cpp:217:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/vtpipeterm/main.cpp:217:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/tools/vtpipeterm/main.cpp:221:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/winconpty/ft_pty/ConPtyTests.cpp:71:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/winconpty/ft_pty/ConPtyTests.cpp:72:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/winconpty/ft_pty/ConPtyTests.cpp:87:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+
+ANALYSIS SUMMARY:
+
+Hits = 340
+Lines analyzed = 308051 in approximately 1.70 seconds (181365 lines/second)
+Physical Source Lines of Code (SLOC) = 214926
+Hits@level = [0] 124 [1] 162 [2] 161 [3]   4 [4]  13 [5]   0
+Hits@level+ = [0+] 464 [1+] 340 [2+] 178 [3+]  17 [4+]  13 [5+]   0
+Hits/KSLOC@level+ = [0+] 2.15888 [1+] 1.58194 [2+] 0.828192 [3+] 0.079097 [4+] 0.0604859 [5+]   0
+Dot directories skipped = 5 (--followdotdir overrides)
+Minimum risk level = 1
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!
+See 'Secure Programming HOWTO'
+(https://dwheeler.com/secure-programs) for more information.

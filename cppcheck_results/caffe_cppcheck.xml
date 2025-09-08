@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="1.90"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="python/caffe/_caffe.cpp" line="381" column="1"/>
+        </error>
+        <error id="duplicateAssignExpression" severity="style" msg="Same expression used in consecutive assignments of &apos;top_index_n&apos; and &apos;data_index_n&apos;." verbose="Finding variables &apos;top_index_n&apos; and &apos;data_index_n&apos; that are assigned the same expression is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398">
+            <location file="src/caffe/data_transformer.cpp" line="414" column="9"/>
+            <location file="src/caffe/data_transformer.cpp" line="415" column="9"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;engine&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;engine&apos; is reassigned a value before the old one has been used." cwe="563">
+            <location file="src/caffe/layer_factory.cpp" line="125" column="12" info="engine is overwritten"/>
+            <location file="src/caffe/layer_factory.cpp" line="123" column="12" info="engine is assigned"/>
+            <symbol>engine</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;engine&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;engine&apos; is reassigned a value before the old one has been used." cwe="563">
+            <location file="src/caffe/layer_factory.cpp" line="201" column="12" info="engine is overwritten"/>
+            <location file="src/caffe/layer_factory.cpp" line="199" column="12" info="engine is assigned"/>
+            <symbol>engine</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;engine&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;engine&apos; is reassigned a value before the old one has been used." cwe="563">
+            <location file="src/caffe/layer_factory.cpp" line="225" column="12" info="engine is overwritten"/>
+            <location file="src/caffe/layer_factory.cpp" line="223" column="12" info="engine is assigned"/>
+            <symbol>engine</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;engine&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;engine&apos; is reassigned a value before the old one has been used." cwe="563">
+            <location file="src/caffe/layer_factory.cpp" line="249" column="12" info="engine is overwritten"/>
+            <location file="src/caffe/layer_factory.cpp" line="247" column="12" info="engine is assigned"/>
+            <symbol>engine</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;engine&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;engine&apos; is reassigned a value before the old one has been used." cwe="563">
+            <location file="src/caffe/layer_factory.cpp" line="273" column="12" info="engine is overwritten"/>
+            <location file="src/caffe/layer_factory.cpp" line="271" column="12" info="engine is assigned"/>
+            <symbol>engine</symbol>
+        </error>
+        <error id="unpreciseMathCall" severity="style" msg="Expression &apos;log(1 + x)&apos; can be replaced by &apos;log1p(x)&apos; to avoid loss of precision." verbose="Expression &apos;log(1 + x)&apos; can be replaced by &apos;log1p(x)&apos; to avoid loss of precision." cwe="758">
+            <location file="src/caffe/layers/bnll_layer.cpp" line="18" column="26"/>
+        </error>
+        <error id="unpreciseMathCall" severity="style" msg="Expression &apos;log(1 + x)&apos; can be replaced by &apos;log1p(x)&apos; to avoid loss of precision." verbose="Expression &apos;log(1 + x)&apos; can be replaced by &apos;log1p(x)&apos; to avoid loss of precision." cwe="758">
+            <location file="src/caffe/layers/bnll_layer.cpp" line="19" column="9"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;index&apos; can be reduced." verbose="The scope of the variable &apos;index&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file="src/caffe/layers/embed_layer.cpp" line="70" column="7"/>
+            <symbol>index</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;index&apos; can be reduced." verbose="The scope of the variable &apos;index&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file="src/caffe/layers/embed_layer.cpp" line="94" column="9"/>
+            <symbol>index</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data_offset_bottom&apos; can be reduced." verbose="The scope of the variable &apos;data_offset_bottom&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file="src/caffe/layers/filter_layer.cpp" line="92" column="11"/>
+            <symbol>data_offset_bottom</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;pos&apos; can be reduced." verbose="The scope of the variable &apos;pos&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file="src/caffe/layers/image_data_layer.cpp" line="41" column="10"/>
+            <symbol>pos</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;label&apos; can be reduced." verbose="The scope of the variable &apos;label&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file="src/caffe/layers/image_data_layer.cpp" line="42" column="7"/>
+            <symbol>label</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;cv_img&apos; shadows outer variable" verbose="Local variable &apos;cv_img&apos; shadows outer variable" cwe="398">
+            <location file="src/caffe/layers/image_data_layer.cpp" line="146" column="13" info="Shadow variable"/>
+            <location file="src/caffe/layers/image_data_layer.cpp" line="127" column="11" info="Shadowed declaration"/>
+            <symbol>cv_img</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;H&apos; is assigned a value that is never used." verbose="Variable &apos;H&apos; is assigned a value that is never used." cwe="563">
+            <location file="src/caffe/layers/lstm_unit_layer.cpp" line="83" column="18"/>
+            <symbol>H</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;H&apos; is assigned a value that is never used." verbose="Variable &apos;H&apos; is assigned a value that is never used." cwe="563">
+            <location file="src/caffe/layers/lstm_unit_layer.cpp" line="114" column="7"/>
+            <symbol>H</symbol>
+        </error>
+        <error id="unpreciseMathCall" severity="style" msg="Expression &apos;log(1 + x)&apos; can be replaced by &apos;log1p(x)&apos; to avoid loss of precision." verbose="Expression &apos;log(1 + x)&apos; can be replaced by &apos;log1p(x)&apos; to avoid loss of precision." cwe="758">
+            <location file="src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp" line="96" column="9"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;label&apos; shadows outer variable" verbose="Local variable &apos;label&apos; shadows outer variable" cwe="398">
+            <location file="src/caffe/layers/window_data_layer.cpp" line="133" column="13" info="Shadow variable"/>
+            <location file="src/caffe/layers/window_data_layer.cpp" line="118" column="11" info="Shadowed declaration"/>
+            <symbol>label</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;param_size&apos; shadows outer variable" verbose="Local variable &apos;param_size&apos; shadows outer variable" cwe="398">
+            <location file="src/caffe/net.cpp" line="474" column="15" info="Shadow variable"/>
+            <location file="src/caffe/net.cpp" line="426" column="13" info="Shadowed declaration"/>
+            <symbol>param_size</symbol>
+        </error>
+        <error id="danglingLifetime" severity="error" msg="Non-local variable &apos;(*nccls_)[Caffe::solver_rank()]&apos; will use object that points to local variable &apos;nccl&apos;." verbose="Non-local variable &apos;(*nccls_)[Caffe::solver_rank()]&apos; will use object that points to local variable &apos;nccl&apos;." cwe="562">
+            <location file="src/caffe/parallel.cpp" line="294" column="14"/>
+            <location file="src/caffe/parallel.cpp" line="288" column="17" info="Variable created here."/>
+            <location file="src/caffe/parallel.cpp" line="294" column="39" info="Address of variable taken here."/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_accuracy_layer.cpp" line="76" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_argmax_layer.cpp" line="40" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_batch_norm_layer.cpp" line="43" column="3"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_batch_reindex_layer.cpp" line="105" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_benchmark.cpp" line="19" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_bias_layer.cpp" line="72" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_blob.cpp" line="26" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_common.cpp" line="15" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_concat_layer.cpp" line="60" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_contrastive_loss_layer.cpp" line="59" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_convolution_layer.cpp" line="195" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_crop_layer.cpp" line="51" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_data_layer.cpp" line="379" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_data_layer.cpp" line="424" column="1"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;datum&apos; shadows outer variable" verbose="Local variable &apos;datum&apos; shadows outer variable" cwe="398">
+            <location file="src/caffe/test/test_data_layer.cpp" line="57" column="13" info="Shadow variable"/>
+            <location file="src/caffe/test/test_data_layer.cpp" line="50" column="13" info="Shadowed declaration"/>
+            <symbol>datum</symbol>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_data_transformer.cpp" line="78" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_db.cpp" line="65" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_deconvolution_layer.cpp" line="56" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_dummy_data_layer.cpp" line="46" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_eltwise_layer.cpp" line="54" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_embed_layer.cpp" line="38" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_euclidean_loss_layer.cpp" line="73" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_filler.cpp" line="38" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_filter_layer.cpp" line="67" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_flatten_layer.cpp" line="39" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_gradient_based_solver.cpp" line="598" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_hdf5_output_layer.cpp" line="73" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_hdf5data_layer.cpp" line="55" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_hinge_loss_layer.cpp" line="53" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_im2col_layer.cpp" line="39" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_image_data_layer.cpp" line="74" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_infogain_loss_layer.cpp" line="67" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_inner_product_layer.cpp" line="47" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_internal_thread.cpp" line="14" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_io.cpp" line="65" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_layer_factory.cpp" line="22" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_lrn_layer.cpp" line="119" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_lstm_layer.cpp" line="92" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_math_functions.cpp" line="53" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_maxpool_dropout_layers.cpp" line="43" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_memory_data_layer.cpp" line="66" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_multinomial_logistic_loss_layer.cpp" line="49" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_mvn_layer.cpp" line="38" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_net.cpp" line="848" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_neuron_layer.cpp" line="187" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_platform.cpp" line="17" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_pooling_layer.cpp" line="376" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_power_layer.cpp" line="90" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_protobuf.cpp" line="16" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_random_number_generator.cpp" line="209" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_reduction_layer.cpp" line="102" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_reshape_layer.cpp" line="40" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_rnn_layer.cpp" line="68" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_scale_layer.cpp" line="72" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp" line="103" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_slice_layer.cpp" line="61" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_softmax_layer.cpp" line="43" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_softmax_with_loss_layer.cpp" line="54" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_solver.cpp" line="46" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_solver_factory.cpp" line="36" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_split_layer.cpp" line="50" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_spp_layer.cpp" line="58" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_stochastic_pooling.cpp" line="56" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_syncedmem.cpp" line="16" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_tanh_layer.cpp" line="88" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_threshold_layer.cpp" line="39" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_tile_layer.cpp" line="46" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_upgrade_proto.cpp" line="44" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="src/caffe/test/test_util_blas.cpp" line="20" column="1"/>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 45 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="src/gtest/gtest-all.cpp" line="0" column="0"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;CurrentStackTrace&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;CurrentStackTrace&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file="src/gtest/gtest-all.cpp" line="832" column="18" info="Function in derived class"/>
+            <location file="src/gtest/gtest-all.cpp" line="817" column="18" info="Virtual function in base class"/>
+            <symbol>CurrentStackTrace</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;UponLeavingGTest&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;UponLeavingGTest&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file="src/gtest/gtest-all.cpp" line="833" column="16" info="Function in derived class"/>
+            <location file="src/gtest/gtest-all.cpp" line="822" column="16" info="Virtual function in base class"/>
+            <symbol>UponLeavingGTest</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;in_subprocess_for_death_test&apos; is always false" verbose="Condition &apos;in_subprocess_for_death_test&apos; is always false" cwe="570">
+            <location file="src/gtest/gtest-all.cpp" line="5506" column="22" info="Condition &apos;in_subprocess_for_death_test&apos; is always false"/>
+            <location file="src/gtest/gtest-all.cpp" line="5472" column="39" info="Assignment &apos;in_subprocess_for_death_test=false&apos;, assigned value is 0"/>
+        </error>
+        <error id="nullPointer" severity="error" msg="Null pointer dereference: static_cast&lt;volatile int*&gt;(NULL)" verbose="Null pointer dereference: static_cast&lt;volatile int*&gt;(NULL)" cwe="476">
+            <location file="src/gtest/gtest-all.cpp" line="5098" column="34" info="Null pointer dereference"/>
+            <symbol>static_cast&lt;volatile int*&gt;(NULL)</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;thread_count!=1&apos; is always true" verbose="Condition &apos;thread_count!=1&apos; is always true" cwe="571">
+            <location file="src/gtest/gtest-all.cpp" line="6984" column="20" info="Condition &apos;thread_count!=1&apos; is always true"/>
+            <location file="src/gtest/gtest-all.cpp" line="6983" column="45" info="Assignment &apos;thread_count=GetThreadCount()&apos;, assigned value is 0"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;child_pid&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;child_pid&apos; is reassigned a value before the old one has been used." cwe="563">
+            <location file="src/gtest/gtest-all.cpp" line="7174" column="30" info="child_pid is overwritten"/>
+            <location file="src/gtest/gtest-all.cpp" line="7166" column="15" info="child_pid is assigned"/>
+            <symbol>child_pid</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: dummy" verbose="Uninitialized variable: dummy" cwe="908">
+            <location file="src/gtest/gtest-all.cpp" line="7143" column="33"/>
+            <symbol>dummy</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;use_fork&apos; is always true" verbose="Condition &apos;use_fork&apos; is always true" cwe="571">
+            <location file="src/gtest/gtest-all.cpp" line="7174" column="7" info="Condition &apos;use_fork&apos; is always true"/>
+        </error>
+        <error id="ConfigurationNotChecked" severity="information" msg="Skipping configuration &apos;GTEST_HAS_DEATH_TEST;WCOREDUMP&apos; since the value of &apos;WCOREDUMP&apos; is unknown. Use -D if you want to check it. You can use -U to skip it explicitly." verbose="Skipping configuration &apos;GTEST_HAS_DEATH_TEST;WCOREDUMP&apos; since the value of &apos;WCOREDUMP&apos; is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.">
+            <location file="src/gtest/gtest-all.cpp" line="6355" column="0"/>
+        </error>
+        <error id="CastIntegerToAddressAtReturn" severity="portability" msg="Returning an integer in a function with pointer return type is not portable." verbose="Returning an integer (int/long/etc) in a function with pointer return type is not portable across different platforms and compilers. For example in 32-bit Windows and Linux they are same width, but in 64-bit Windows and Linux they are of different width. In worst case you end up casting 64-bit integer down to 32-bit pointer. The safe way is to always return a pointer." cwe="758">
+            <location file="tools/caffe.cpp" line="76" column="5"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;datum&apos; shadows outer variable" verbose="Local variable &apos;datum&apos; shadows outer variable" cwe="398">
+            <location file="tools/compute_image_mean.cpp" line="72" column="11" info="Shadow variable"/>
+            <location file="tools/compute_image_mean.cpp" line="53" column="9" info="Shadowed declaration"/>
+            <symbol>datum</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;pos&apos; can be reduced." verbose="The scope of the variable &apos;pos&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file="tools/convert_imageset.cpp" line="77" column="10"/>
+            <symbol>pos</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;label&apos; can be reduced." verbose="The scope of the variable &apos;label&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file="tools/convert_imageset.cpp" line="78" column="7"/>
+            <symbol>label</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;arg_pos&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;arg_pos&apos;. The initialized value is overwritten before it is read." cwe="563">
+            <location file="tools/extract_features.cpp" line="50" column="11" info="arg_pos is overwritten"/>
+            <location file="tools/extract_features.cpp" line="48" column="15" info="arg_pos is initialized"/>
+            <symbol>arg_pos</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;feature_blob_data&apos; can be reduced." verbose="The scope of the variable &apos;feature_blob_data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file="tools/extract_features.cpp" line="144" column="20"/>
+            <symbol>feature_blob_data</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;AssumeRole&apos; is never used." verbose="The function &apos;AssumeRole&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="6982" column="0"/>
+            <symbol>AssumeRole</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;ClearAdHocTestResult&apos; is never used." verbose="The function &apos;ClearAdHocTestResult&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="1092" column="0"/>
+            <symbol>ClearAdHocTestResult</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;CmpHelperEQ&apos; is never used." verbose="The function &apos;CmpHelperEQ&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="2414" column="0"/>
+            <symbol>CmpHelperEQ</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;CmpHelperGE&apos; is never used." verbose="The function &apos;CmpHelperGE&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="2456" column="0"/>
+            <symbol>CmpHelperGE</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;CmpHelperGT&apos; is never used." verbose="The function &apos;CmpHelperGT&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="2459" column="0"/>
+            <symbol>CmpHelperGT</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;CmpHelperLE&apos; is never used." verbose="The function &apos;CmpHelperLE&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="2450" column="0"/>
+            <symbol>CmpHelperLE</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;CmpHelperLT&apos; is never used." verbose="The function &apos;CmpHelperLT&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="2453" column="0"/>
+            <symbol>CmpHelperLT</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;CmpHelperNE&apos; is never used." verbose="The function &apos;CmpHelperNE&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="2447" column="0"/>
+            <symbol>CmpHelperNE</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;CmpHelperSTRCASEEQ&apos; is never used." verbose="The function &apos;CmpHelperSTRCASEEQ&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="2480" column="0"/>
+            <symbol>CmpHelperSTRCASEEQ</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;CmpHelperSTRCASENE&apos; is never used." verbose="The function &apos;CmpHelperSTRCASENE&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="2510" column="0"/>
+            <symbol>CmpHelperSTRCASENE</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;CmpHelperSTREQ&apos; is never used." verbose="The function &apos;CmpHelperSTREQ&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="2464" column="0"/>
+            <symbol>CmpHelperSTREQ</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;CmpHelperSTRNE&apos; is never used." verbose="The function &apos;CmpHelperSTRNE&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="2496" column="0"/>
+            <symbol>CmpHelperSTRNE</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;CurrentStackTrace&apos; is never used." verbose="The function &apos;CurrentStackTrace&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="4838" column="0"/>
+            <symbol>CurrentStackTrace</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;DecodeDatum&apos; is never used." verbose="The function &apos;DecodeDatum&apos; is never used." cwe="561">
+            <location file="src/caffe/util/io.cpp" line="202" column="0"/>
+            <symbol>DecodeDatum</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;DoubleLE&apos; is never used." verbose="The function &apos;DoubleLE&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="2405" column="0"/>
+            <symbol>DoubleLE</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;DoubleNearPredFormat&apos; is never used." verbose="The function &apos;DoubleNearPredFormat&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="2339" column="0"/>
+            <symbol>DoubleNearPredFormat</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;EscapeXmlText&apos; is never used." verbose="The function &apos;EscapeXmlText&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="4346" column="0"/>
+            <symbol>EscapeXmlText</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;ExitedUnsuccessfully&apos; is never used." verbose="The function &apos;ExitedUnsuccessfully&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="6366" column="0"/>
+            <symbol>ExitedUnsuccessfully</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;FloatLE&apos; is never used." verbose="The function &apos;FloatLE&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="2398" column="0"/>
+            <symbol>FloatLE</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;GetBoolAssertionFailureMessage&apos; is never used." verbose="The function &apos;GetBoolAssertionFailureMessage&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="2324" column="0"/>
+            <symbol>GetBoolAssertionFailureMessage</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;GetCurrentOsStackTraceExceptTop&apos; is never used." verbose="The function &apos;GetCurrentOsStackTraceExceptTop&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="5821" column="0"/>
+            <symbol>GetCurrentOsStackTraceExceptTop</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;IsHRESULTFailure&apos; is never used." verbose="The function &apos;IsHRESULTFailure&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="2688" column="0"/>
+            <symbol>IsHRESULTFailure</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;IsHRESULTSuccess&apos; is never used." verbose="The function &apos;IsHRESULTSuccess&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="2681" column="0"/>
+            <symbol>IsHRESULTSuccess</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;IsNotSubstring&apos; is never used." verbose="The function &apos;IsNotSubstring&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="2595" column="0"/>
+            <symbol>IsNotSubstring</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;IsSubstring&apos; is never used." verbose="The function &apos;IsSubstring&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="2583" column="0"/>
+            <symbol>IsSubstring</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;MakeAndRegisterTestInfo&apos; is never used." verbose="The function &apos;MakeAndRegisterTestInfo&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="3532" column="0"/>
+            <symbol>MakeAndRegisterTestInfo</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;PrintBytesInObjectTo&apos; is never used." verbose="The function &apos;PrintBytesInObjectTo&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="8663" column="0"/>
+            <symbol>PrintBytesInObjectTo</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;PrintStringTo&apos; is never used." verbose="The function &apos;PrintStringTo&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="8882" column="0"/>
+            <symbol>PrintStringTo</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;PrintTo&apos; is never used." verbose="The function &apos;PrintTo&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="8790" column="0"/>
+            <symbol>PrintTo</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;TestRead&apos; is never used." verbose="The function &apos;TestRead&apos; is never used." cwe="561">
+            <location file="src/caffe/test/test_data_layer.cpp" line="70" column="0"/>
+            <symbol>TestRead</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;TestReadCrop&apos; is never used." verbose="The function &apos;TestReadCrop&apos; is never used." cwe="561">
+            <location file="src/caffe/test/test_data_layer.cpp" line="199" column="0"/>
+            <symbol>TestReadCrop</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;TestReadCropTrainSequenceSeeded&apos; is never used." verbose="The function &apos;TestReadCropTrainSequenceSeeded&apos; is never used." cwe="561">
+            <location file="src/caffe/test/test_data_layer.cpp" line="253" column="0"/>
+            <symbol>TestReadCropTrainSequenceSeeded</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;TestReadCropTrainSequenceUnseeded&apos; is never used." verbose="The function &apos;TestReadCropTrainSequenceUnseeded&apos; is never used." cwe="561">
+            <location file="src/caffe/test/test_data_layer.cpp" line="308" column="0"/>
+            <symbol>TestReadCropTrainSequenceUnseeded</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;TestReshape&apos; is never used." verbose="The function &apos;TestReshape&apos; is never used." cwe="561">
+            <location file="src/caffe/test/test_data_layer.cpp" line="134" column="0"/>
+            <symbol>TestReshape</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;TestSkip&apos; is never used." verbose="The function &apos;TestSkip&apos; is never used." cwe="561">
+            <location file="src/caffe/test/test_data_layer.cpp" line="108" column="0"/>
+            <symbol>TestSkip</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;UniversalPrintArray&apos; is never used." verbose="The function &apos;UniversalPrintArray&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="8823" column="0"/>
+            <symbol>UniversalPrintArray</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;Wait&apos; is never used." verbose="The function &apos;Wait&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="6959" column="0"/>
+            <symbol>Wait</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_abs &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_abs &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="235" column="0"/>
+            <symbol>caffe_abs &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_abs &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_abs &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="230" column="0"/>
+            <symbol>caffe_abs &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_add &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_add &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="136" column="0"/>
+            <symbol>caffe_add &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_add &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_add &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="130" column="0"/>
+            <symbol>caffe_add &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_axpy &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_axpy &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="53" column="0"/>
+            <symbol>caffe_axpy &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_axpy &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_axpy &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="49" column="0"/>
+            <symbol>caffe_axpy &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_copy &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_copy &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="86" column="0"/>
+            <symbol>caffe_copy &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_copy &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_copy &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="86" column="0"/>
+            <symbol>caffe_copy &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_copy &lt; int &gt;&apos; is never used." verbose="The function &apos;caffe_copy &lt; int &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="86" column="0"/>
+            <symbol>caffe_copy &lt; int &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_copy &lt; unsigned int &gt;&apos; is never used." verbose="The function &apos;caffe_copy &lt; unsigned int &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="86" column="0"/>
+            <symbol>caffe_copy &lt; unsigned int &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_cpu_asum &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_cpu_asum &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="367" column="0"/>
+            <symbol>caffe_cpu_asum &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_cpu_asum &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_cpu_asum &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="362" column="0"/>
+            <symbol>caffe_cpu_asum &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_cpu_axpby &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_cpu_axpby &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="124" column="0"/>
+            <symbol>caffe_cpu_axpby &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_cpu_axpby &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_cpu_axpby &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="118" column="0"/>
+            <symbol>caffe_cpu_axpby &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_cpu_dot &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_cpu_dot &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="351" column="0"/>
+            <symbol>caffe_cpu_dot &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_cpu_dot &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_cpu_dot &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="351" column="0"/>
+            <symbol>caffe_cpu_dot &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_cpu_gemm &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_cpu_gemm &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="24" column="0"/>
+            <symbol>caffe_cpu_gemm &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_cpu_gemm &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_cpu_gemm &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="13" column="0"/>
+            <symbol>caffe_cpu_gemm &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_cpu_gemv &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_cpu_gemv &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="42" column="0"/>
+            <symbol>caffe_cpu_gemv &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_cpu_gemv &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_cpu_gemv &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="35" column="0"/>
+            <symbol>caffe_cpu_gemv &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_cpu_scale &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_cpu_scale &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="379" column="0"/>
+            <symbol>caffe_cpu_scale &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_cpu_scale &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_cpu_scale &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="372" column="0"/>
+            <symbol>caffe_cpu_scale &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_cpu_strided_dot &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_cpu_strided_dot &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="339" column="0"/>
+            <symbol>caffe_cpu_strided_dot &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_div &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_div &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="172" column="0"/>
+            <symbol>caffe_div &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_div &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_div &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="166" column="0"/>
+            <symbol>caffe_div &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_exp &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_exp &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="215" column="0"/>
+            <symbol>caffe_exp &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_exp &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_exp &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="210" column="0"/>
+            <symbol>caffe_exp &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_log &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_log &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="225" column="0"/>
+            <symbol>caffe_log &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_log &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_log &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="220" column="0"/>
+            <symbol>caffe_log &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_mul &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_mul &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="160" column="0"/>
+            <symbol>caffe_mul &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_mul &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_mul &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="154" column="0"/>
+            <symbol>caffe_mul &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_powx &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_powx &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="184" column="0"/>
+            <symbol>caffe_powx &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_powx &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_powx &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="178" column="0"/>
+            <symbol>caffe_powx &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_rng_bernoulli &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_rng_bernoulli &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="319" column="0"/>
+            <symbol>caffe_rng_bernoulli &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_rng_bernoulli &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_rng_bernoulli &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="319" column="0"/>
+            <symbol>caffe_rng_bernoulli &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_rng_gaussian &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_rng_gaussian &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="277" column="0"/>
+            <symbol>caffe_rng_gaussian &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_rng_gaussian &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_rng_gaussian &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="277" column="0"/>
+            <symbol>caffe_rng_gaussian &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_rng_uniform &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_rng_uniform &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="256" column="0"/>
+            <symbol>caffe_rng_uniform &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_rng_uniform &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_rng_uniform &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="256" column="0"/>
+            <symbol>caffe_rng_uniform &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_scal &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_scal &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="113" column="0"/>
+            <symbol>caffe_scal &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_scal &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_scal &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="108" column="0"/>
+            <symbol>caffe_scal &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_set &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_set &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="57" column="0"/>
+            <symbol>caffe_set &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_set &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_set &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="57" column="0"/>
+            <symbol>caffe_set &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_set &lt; int &gt;&apos; is never used." verbose="The function &apos;caffe_set &lt; int &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="57" column="0"/>
+            <symbol>caffe_set &lt; int &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_sqr &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_sqr &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="195" column="0"/>
+            <symbol>caffe_sqr &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_sqr &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_sqr &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="190" column="0"/>
+            <symbol>caffe_sqr &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_sqrt &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_sqrt &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="205" column="0"/>
+            <symbol>caffe_sqrt &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_sqrt &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_sqrt &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="200" column="0"/>
+            <symbol>caffe_sqrt &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_sub &lt; double &gt;&apos; is never used." verbose="The function &apos;caffe_sub &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="148" column="0"/>
+            <symbol>caffe_sub &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;caffe_sub &lt; float &gt;&apos; is never used." verbose="The function &apos;caffe_sub &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/math_functions.cpp" line="142" column="0"/>
+            <symbol>caffe_sub &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;col2im_cpu &lt; double &gt;&apos; is never used." verbose="The function &apos;col2im_cpu &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/im2col.cpp" line="163" column="0"/>
+            <symbol>col2im_cpu &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;col2im_cpu &lt; float &gt;&apos; is never used." verbose="The function &apos;col2im_cpu &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/im2col.cpp" line="163" column="0"/>
+            <symbol>col2im_cpu &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;col2im_nd_cpu &lt; double &gt;&apos; is never used." verbose="The function &apos;col2im_nd_cpu &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/im2col.cpp" line="212" column="0"/>
+            <symbol>col2im_nd_cpu &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;col2im_nd_cpu &lt; float &gt;&apos; is never used." verbose="The function &apos;col2im_nd_cpu &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/im2col.cpp" line="212" column="0"/>
+            <symbol>col2im_nd_cpu &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;cublasGetErrorString&apos; is never used." verbose="The function &apos;cublasGetErrorString&apos; is never used." cwe="561">
+            <location file="src/caffe/common.cpp" line="261" column="0"/>
+            <symbol>cublasGetErrorString</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;curandGetErrorString&apos; is never used." verbose="The function &apos;curandGetErrorString&apos; is never used." cwe="561">
+            <location file="src/caffe/common.cpp" line="291" column="0"/>
+            <symbol>curandGetErrorString</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;hdf5_load_nd_dataset &lt; double &gt;&apos; is never used." verbose="The function &apos;hdf5_load_nd_dataset &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/hdf5.cpp" line="98" column="0"/>
+            <symbol>hdf5_load_nd_dataset &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;hdf5_load_nd_dataset &lt; float &gt;&apos; is never used." verbose="The function &apos;hdf5_load_nd_dataset &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/hdf5.cpp" line="88" column="0"/>
+            <symbol>hdf5_load_nd_dataset &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;hdf5_save_nd_dataset &lt; double &gt;&apos; is never used." verbose="The function &apos;hdf5_save_nd_dataset &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/hdf5.cpp" line="129" column="0"/>
+            <symbol>hdf5_save_nd_dataset &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;hdf5_save_nd_dataset &lt; float &gt;&apos; is never used." verbose="The function &apos;hdf5_save_nd_dataset &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/hdf5.cpp" line="108" column="0"/>
+            <symbol>hdf5_save_nd_dataset &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;im2col_cpu &lt; double &gt;&apos; is never used." verbose="The function &apos;im2col_cpu &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/im2col.cpp" line="19" column="0"/>
+            <symbol>im2col_cpu &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;im2col_cpu &lt; float &gt;&apos; is never used." verbose="The function &apos;im2col_cpu &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/im2col.cpp" line="19" column="0"/>
+            <symbol>im2col_cpu &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;im2col_nd_cpu &lt; double &gt;&apos; is never used." verbose="The function &apos;im2col_nd_cpu &lt; double &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/im2col.cpp" line="141" column="0"/>
+            <symbol>im2col_nd_cpu &lt; double &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;im2col_nd_cpu &lt; float &gt;&apos; is never used." verbose="The function &apos;im2col_nd_cpu &lt; float &gt;&apos; is never used." cwe="561">
+            <location file="src/caffe/util/im2col.cpp" line="141" column="0"/>
+            <symbol>im2col_nd_cpu &lt; float &gt;</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;mexFunction&apos; is never used." verbose="The function &apos;mexFunction&apos; is never used." cwe="561">
+            <location file="matlab/+caffe/private/caffe_.cpp" line="585" column="0"/>
+            <symbol>mexFunction</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;set_os_stack_trace_getter&apos; is never used." verbose="The function &apos;set_os_stack_trace_getter&apos; is never used." cwe="561">
+            <location file="src/gtest/gtest-all.cpp" line="5759" column="0"/>
+            <symbol>set_os_stack_trace_getter</symbol>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

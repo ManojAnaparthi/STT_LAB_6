@@ -1,0 +1,671 @@
+Flawfinder version 2.0.10, (C) 2001-2019 David A. Wheeler.
+Number of rules (primarily dangerous function names) in C/C++ ruleset: 223
+Examining ./include/caffe/filler.hpp
+Examining ./include/caffe/util/db_leveldb.hpp
+Examining ./include/caffe/util/math_functions.hpp
+Examining ./include/caffe/util/db_lmdb.hpp
+Examining ./include/caffe/util/upgrade_proto.hpp
+Examining ./include/caffe/util/hdf5.hpp
+Examining ./include/caffe/util/rng.hpp
+Examining ./include/caffe/util/insert_splits.hpp
+Examining ./include/caffe/util/io.hpp
+Examining ./include/caffe/util/format.hpp
+Examining ./include/caffe/util/db.hpp
+Examining ./include/caffe/util/im2col.hpp
+Examining ./include/caffe/util/mkl_alternate.hpp
+Examining ./include/caffe/util/device_alternate.hpp
+Examining ./include/caffe/util/cudnn.hpp
+Examining ./include/caffe/util/benchmark.hpp
+Examining ./include/caffe/util/blocking_queue.hpp
+Examining ./include/caffe/util/nccl.hpp
+Examining ./include/caffe/util/signal_handler.h
+Examining ./include/caffe/sgd_solvers.hpp
+Examining ./include/caffe/caffe.hpp
+Examining ./include/caffe/net.hpp
+Examining ./include/caffe/solver_factory.hpp
+Examining ./include/caffe/blob.hpp
+Examining ./include/caffe/parallel.hpp
+Examining ./include/caffe/test/test_gradient_check_util.hpp
+Examining ./include/caffe/test/test_caffe_main.hpp
+Examining ./include/caffe/layers/reshape_layer.hpp
+Examining ./include/caffe/layers/elu_layer.hpp
+Examining ./include/caffe/layers/euclidean_loss_layer.hpp
+Examining ./include/caffe/layers/tanh_layer.hpp
+Examining ./include/caffe/layers/conv_layer.hpp
+Examining ./include/caffe/layers/image_data_layer.hpp
+Examining ./include/caffe/layers/cudnn_pooling_layer.hpp
+Examining ./include/caffe/layers/infogain_loss_layer.hpp
+Examining ./include/caffe/layers/embed_layer.hpp
+Examining ./include/caffe/layers/inner_product_layer.hpp
+Examining ./include/caffe/layers/dropout_layer.hpp
+Examining ./include/caffe/layers/mvn_layer.hpp
+Examining ./include/caffe/layers/neuron_layer.hpp
+Examining ./include/caffe/layers/rnn_layer.hpp
+Examining ./include/caffe/layers/im2col_layer.hpp
+Examining ./include/caffe/layers/loss_layer.hpp
+Examining ./include/caffe/layers/bias_layer.hpp
+Examining ./include/caffe/layers/hinge_loss_layer.hpp
+Examining ./include/caffe/layers/softmax_layer.hpp
+Examining ./include/caffe/layers/cudnn_softmax_layer.hpp
+Examining ./include/caffe/layers/input_layer.hpp
+Examining ./include/caffe/layers/relu_layer.hpp
+Examining ./include/caffe/layers/cudnn_tanh_layer.hpp
+Examining ./include/caffe/layers/filter_layer.hpp
+Examining ./include/caffe/layers/swish_layer.hpp
+Examining ./include/caffe/layers/split_layer.hpp
+Examining ./include/caffe/layers/pooling_layer.hpp
+Examining ./include/caffe/layers/recurrent_layer.hpp
+Examining ./include/caffe/layers/python_layer.hpp
+Examining ./include/caffe/layers/spp_layer.hpp
+Examining ./include/caffe/layers/cudnn_lcn_layer.hpp
+Examining ./include/caffe/layers/slice_layer.hpp
+Examining ./include/caffe/layers/base_data_layer.hpp
+Examining ./include/caffe/layers/hdf5_data_layer.hpp
+Examining ./include/caffe/layers/cudnn_deconv_layer.hpp
+Examining ./include/caffe/layers/parameter_layer.hpp
+Examining ./include/caffe/layers/clip_layer.hpp
+Examining ./include/caffe/layers/flatten_layer.hpp
+Examining ./include/caffe/layers/lrn_layer.hpp
+Examining ./include/caffe/layers/concat_layer.hpp
+Examining ./include/caffe/layers/dummy_data_layer.hpp
+Examining ./include/caffe/layers/cudnn_conv_layer.hpp
+Examining ./include/caffe/layers/lstm_layer.hpp
+Examining ./include/caffe/layers/absval_layer.hpp
+Examining ./include/caffe/layers/cudnn_lrn_layer.hpp
+Examining ./include/caffe/layers/cudnn_sigmoid_layer.hpp
+Examining ./include/caffe/layers/softmax_loss_layer.hpp
+Examining ./include/caffe/layers/sigmoid_layer.hpp
+Examining ./include/caffe/layers/cudnn_relu_layer.hpp
+Examining ./include/caffe/layers/data_layer.hpp
+Examining ./include/caffe/layers/sigmoid_cross_entropy_loss_layer.hpp
+Examining ./include/caffe/layers/power_layer.hpp
+Examining ./include/caffe/layers/hdf5_output_layer.hpp
+Examining ./include/caffe/layers/bnll_layer.hpp
+Examining ./include/caffe/layers/crop_layer.hpp
+Examining ./include/caffe/layers/reduction_layer.hpp
+Examining ./include/caffe/layers/argmax_layer.hpp
+Examining ./include/caffe/layers/accuracy_layer.hpp
+Examining ./include/caffe/layers/batch_reindex_layer.hpp
+Examining ./include/caffe/layers/window_data_layer.hpp
+Examining ./include/caffe/layers/multinomial_logistic_loss_layer.hpp
+Examining ./include/caffe/layers/log_layer.hpp
+Examining ./include/caffe/layers/deconv_layer.hpp
+Examining ./include/caffe/layers/batch_norm_layer.hpp
+Examining ./include/caffe/layers/memory_data_layer.hpp
+Examining ./include/caffe/layers/scale_layer.hpp
+Examining ./include/caffe/layers/eltwise_layer.hpp
+Examining ./include/caffe/layers/prelu_layer.hpp
+Examining ./include/caffe/layers/silence_layer.hpp
+Examining ./include/caffe/layers/tile_layer.hpp
+Examining ./include/caffe/layers/threshold_layer.hpp
+Examining ./include/caffe/layers/exp_layer.hpp
+Examining ./include/caffe/layers/base_conv_layer.hpp
+Examining ./include/caffe/layers/contrastive_loss_layer.hpp
+Examining ./include/caffe/common.hpp
+Examining ./include/caffe/layer_factory.hpp
+Examining ./include/caffe/internal_thread.hpp
+Examining ./include/caffe/layer.hpp
+Examining ./include/caffe/solver.hpp
+Examining ./include/caffe/syncedmem.hpp
+Examining ./include/caffe/data_transformer.hpp
+Examining ./examples/cifar10/convert_cifar_data.cpp
+Examining ./examples/siamese/convert_mnist_siamese_data.cpp
+Examining ./examples/mnist/convert_mnist_data.cpp
+Examining ./examples/cpp_classification/classification.cpp
+Examining ./matlab/+caffe/private/caffe_.cpp
+Examining ./src/caffe/util/insert_splits.cpp
+Examining ./src/caffe/util/db.cpp
+Examining ./src/caffe/util/cudnn.cpp
+Examining ./src/caffe/util/blocking_queue.cpp
+Examining ./src/caffe/util/io.cpp
+Examining ./src/caffe/util/hdf5.cpp
+Examining ./src/caffe/util/upgrade_proto.cpp
+Examining ./src/caffe/util/signal_handler.cpp
+Examining ./src/caffe/util/im2col.cpp
+Examining ./src/caffe/util/math_functions.cpp
+Examining ./src/caffe/util/benchmark.cpp
+Examining ./src/caffe/util/db_leveldb.cpp
+Examining ./src/caffe/util/db_lmdb.cpp
+Examining ./src/caffe/layer.cpp
+Examining ./src/caffe/solvers/adagrad_solver.cpp
+Examining ./src/caffe/solvers/adadelta_solver.cpp
+Examining ./src/caffe/solvers/rmsprop_solver.cpp
+Examining ./src/caffe/solvers/adam_solver.cpp
+Examining ./src/caffe/solvers/nesterov_solver.cpp
+Examining ./src/caffe/solvers/sgd_solver.cpp
+Examining ./src/caffe/common.cpp
+Examining ./src/caffe/data_transformer.cpp
+Examining ./src/caffe/net.cpp
+Examining ./src/caffe/solver.cpp
+Examining ./src/caffe/blob.cpp
+Examining ./src/caffe/test/test_mvn_layer.cpp
+Examining ./src/caffe/test/test_accuracy_layer.cpp
+Examining ./src/caffe/test/test_multinomial_logistic_loss_layer.cpp
+Examining ./src/caffe/test/test_contrastive_loss_layer.cpp
+Examining ./src/caffe/test/test_batch_reindex_layer.cpp
+Examining ./src/caffe/test/test_random_number_generator.cpp
+Examining ./src/caffe/test/test_util_blas.cpp
+Examining ./src/caffe/test/test_im2col_layer.cpp
+Examining ./src/caffe/test/test_hdf5data_layer.cpp
+Examining ./src/caffe/test/test_io.cpp
+Examining ./src/caffe/test/test_maxpool_dropout_layers.cpp
+Examining ./src/caffe/test/test_softmax_with_loss_layer.cpp
+Examining ./src/caffe/test/test_flatten_layer.cpp
+Examining ./src/caffe/test/test_rnn_layer.cpp
+Examining ./src/caffe/test/test_platform.cpp
+Examining ./src/caffe/test/test_split_layer.cpp
+Examining ./src/caffe/test/test_scale_layer.cpp
+Examining ./src/caffe/test/test_embed_layer.cpp
+Examining ./src/caffe/test/test_caffe_main.cpp
+Examining ./src/caffe/test/test_pooling_layer.cpp
+Examining ./src/caffe/test/test_reshape_layer.cpp
+Examining ./src/caffe/test/test_syncedmem.cpp
+Examining ./src/caffe/test/test_filler.cpp
+Examining ./src/caffe/test/test_convolution_layer.cpp
+Examining ./src/caffe/test/test_image_data_layer.cpp
+Examining ./src/caffe/test/test_infogain_loss_layer.cpp
+Examining ./src/caffe/test/test_hinge_loss_layer.cpp
+Examining ./src/caffe/test/test_tanh_layer.cpp
+Examining ./src/caffe/test/test_spp_layer.cpp
+Examining ./src/caffe/test/test_argmax_layer.cpp
+Examining ./src/caffe/test/test_hdf5_output_layer.cpp
+Examining ./src/caffe/test/test_math_functions.cpp
+Examining ./src/caffe/test/test_data_transformer.cpp
+Examining ./src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp
+Examining ./src/caffe/test/test_stochastic_pooling.cpp
+Examining ./src/caffe/test/test_threshold_layer.cpp
+Examining ./src/caffe/test/test_gradient_based_solver.cpp
+Examining ./src/caffe/test/test_reduction_layer.cpp
+Examining ./src/caffe/test/test_data_layer.cpp
+Examining ./src/caffe/test/test_protobuf.cpp
+Examining ./src/caffe/test/test_filter_layer.cpp
+Examining ./src/caffe/test/test_dummy_data_layer.cpp
+Examining ./src/caffe/test/test_euclidean_loss_layer.cpp
+Examining ./src/caffe/test/test_lrn_layer.cpp
+Examining ./src/caffe/test/test_benchmark.cpp
+Examining ./src/caffe/test/test_batch_norm_layer.cpp
+Examining ./src/caffe/test/test_bias_layer.cpp
+Examining ./src/caffe/test/test_solver_factory.cpp
+Examining ./src/caffe/test/test_layer_factory.cpp
+Examining ./src/caffe/test/test_upgrade_proto.cpp
+Examining ./src/caffe/test/test_tile_layer.cpp
+Examining ./src/caffe/test/test_power_layer.cpp
+Examining ./src/caffe/test/test_crop_layer.cpp
+Examining ./src/caffe/test/test_blob.cpp
+Examining ./src/caffe/test/test_slice_layer.cpp
+Examining ./src/caffe/test/test_memory_data_layer.cpp
+Examining ./src/caffe/test/test_neuron_layer.cpp
+Examining ./src/caffe/test/test_concat_layer.cpp
+Examining ./src/caffe/test/test_solver.cpp
+Examining ./src/caffe/test/test_softmax_layer.cpp
+Examining ./src/caffe/test/test_inner_product_layer.cpp
+Examining ./src/caffe/test/test_net.cpp
+Examining ./src/caffe/test/test_common.cpp
+Examining ./src/caffe/test/test_deconvolution_layer.cpp
+Examining ./src/caffe/test/test_db.cpp
+Examining ./src/caffe/test/test_internal_thread.cpp
+Examining ./src/caffe/test/test_eltwise_layer.cpp
+Examining ./src/caffe/test/test_lstm_layer.cpp
+Examining ./src/caffe/layers/batch_norm_layer.cpp
+Examining ./src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp
+Examining ./src/caffe/layers/swish_layer.cpp
+Examining ./src/caffe/layers/mvn_layer.cpp
+Examining ./src/caffe/layers/eltwise_layer.cpp
+Examining ./src/caffe/layers/data_layer.cpp
+Examining ./src/caffe/layers/absval_layer.cpp
+Examining ./src/caffe/layers/reshape_layer.cpp
+Examining ./src/caffe/layers/parameter_layer.cpp
+Examining ./src/caffe/layers/loss_layer.cpp
+Examining ./src/caffe/layers/cudnn_softmax_layer.cpp
+Examining ./src/caffe/layers/embed_layer.cpp
+Examining ./src/caffe/layers/cudnn_deconv_layer.cpp
+Examining ./src/caffe/layers/window_data_layer.cpp
+Examining ./src/caffe/layers/clip_layer.cpp
+Examining ./src/caffe/layers/lrn_layer.cpp
+Examining ./src/caffe/layers/neuron_layer.cpp
+Examining ./src/caffe/layers/lstm_unit_layer.cpp
+Examining ./src/caffe/layers/slice_layer.cpp
+Examining ./src/caffe/layers/bias_layer.cpp
+Examining ./src/caffe/layers/prelu_layer.cpp
+Examining ./src/caffe/layers/euclidean_loss_layer.cpp
+Examining ./src/caffe/layers/scale_layer.cpp
+Examining ./src/caffe/layers/silence_layer.cpp
+Examining ./src/caffe/layers/elu_layer.cpp
+Examining ./src/caffe/layers/filter_layer.cpp
+Examining ./src/caffe/layers/split_layer.cpp
+Examining ./src/caffe/layers/recurrent_layer.cpp
+Examining ./src/caffe/layers/dropout_layer.cpp
+Examining ./src/caffe/layers/cudnn_lrn_layer.cpp
+Examining ./src/caffe/layers/dummy_data_layer.cpp
+Examining ./src/caffe/layers/cudnn_lcn_layer.cpp
+Examining ./src/caffe/layers/input_layer.cpp
+Examining ./src/caffe/layers/power_layer.cpp
+Examining ./src/caffe/layers/threshold_layer.cpp
+Examining ./src/caffe/layers/memory_data_layer.cpp
+Examining ./src/caffe/layers/tile_layer.cpp
+Examining ./src/caffe/layers/argmax_layer.cpp
+Examining ./src/caffe/layers/accuracy_layer.cpp
+Examining ./src/caffe/layers/infogain_loss_layer.cpp
+Examining ./src/caffe/layers/deconv_layer.cpp
+Examining ./src/caffe/layers/crop_layer.cpp
+Examining ./src/caffe/layers/cudnn_conv_layer.cpp
+Examining ./src/caffe/layers/inner_product_layer.cpp
+Examining ./src/caffe/layers/sigmoid_layer.cpp
+Examining ./src/caffe/layers/base_data_layer.cpp
+Examining ./src/caffe/layers/relu_layer.cpp
+Examining ./src/caffe/layers/cudnn_sigmoid_layer.cpp
+Examining ./src/caffe/layers/im2col_layer.cpp
+Examining ./src/caffe/layers/spp_layer.cpp
+Examining ./src/caffe/layers/contrastive_loss_layer.cpp
+Examining ./src/caffe/layers/flatten_layer.cpp
+Examining ./src/caffe/layers/concat_layer.cpp
+Examining ./src/caffe/layers/multinomial_logistic_loss_layer.cpp
+Examining ./src/caffe/layers/bnll_layer.cpp
+Examining ./src/caffe/layers/reduction_layer.cpp
+Examining ./src/caffe/layers/cudnn_tanh_layer.cpp
+Examining ./src/caffe/layers/rnn_layer.cpp
+Examining ./src/caffe/layers/batch_reindex_layer.cpp
+Examining ./src/caffe/layers/conv_layer.cpp
+Examining ./src/caffe/layers/hinge_loss_layer.cpp
+Examining ./src/caffe/layers/image_data_layer.cpp
+Examining ./src/caffe/layers/cudnn_relu_layer.cpp
+Examining ./src/caffe/layers/softmax_loss_layer.cpp
+Examining ./src/caffe/layers/lstm_layer.cpp
+Examining ./src/caffe/layers/hdf5_output_layer.cpp
+Examining ./src/caffe/layers/tanh_layer.cpp
+Examining ./src/caffe/layers/pooling_layer.cpp
+Examining ./src/caffe/layers/hdf5_data_layer.cpp
+Examining ./src/caffe/layers/base_conv_layer.cpp
+Examining ./src/caffe/layers/exp_layer.cpp
+Examining ./src/caffe/layers/cudnn_pooling_layer.cpp
+Examining ./src/caffe/layers/softmax_layer.cpp
+Examining ./src/caffe/layers/log_layer.cpp
+Examining ./src/caffe/layer_factory.cpp
+Examining ./src/caffe/syncedmem.cpp
+Examining ./src/caffe/parallel.cpp
+Examining ./src/caffe/internal_thread.cpp
+Examining ./src/gtest/gtest.h
+Examining ./src/gtest/gtest_main.cc
+Examining ./src/gtest/gtest-all.cpp
+Examining ./python/caffe/_caffe.cpp
+Examining ./tools/convert_imageset.cpp
+Examining ./tools/caffe.cpp
+Examining ./tools/upgrade_net_proto_binary.cpp
+Examining ./tools/extract_features.cpp
+Examining ./tools/compute_image_mean.cpp
+Examining ./tools/upgrade_net_proto_text.cpp
+Examining ./tools/upgrade_solver_proto_text.cpp
+
+FINAL RESULTS:
+
+./src/gtest/gtest-all.cpp:1439:  [4] (format) vsnprintf:
+  If format strings can be influenced by an attacker, they can be exploited,
+  and note that sprintf variations do not always \0-terminate (CWE-134). Use
+  a constant for the format specification.
+./src/gtest/gtest-all.cpp:2143:  [4] (buffer) StrNCpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+./src/gtest/gtest-all.cpp:2763:  [4] (buffer) StrNCpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+./src/gtest/gtest-all.cpp:3016:  [4] (format) vsnprintf:
+  If format strings can be influenced by an attacker, they can be exploited,
+  and note that sprintf variations do not always \0-terminate (CWE-134). Use
+  a constant for the format specification.
+./src/gtest/gtest-all.cpp:3020:  [4] (format) vsnprintf:
+  If format strings can be influenced by an attacker, they can be exploited,
+  and note that sprintf variations do not always \0-terminate (CWE-134). Use
+  a constant for the format specification.
+./src/gtest/gtest-all.cpp:3937:  [4] (format) vprintf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+./src/gtest/gtest-all.cpp:3956:  [4] (format) vprintf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+./src/gtest/gtest-all.cpp:3963:  [4] (format) vprintf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+./src/gtest/gtest-all.cpp:8604:  [4] (format) snprintf:
+  If format strings can be influenced by an attacker, they can be exploited,
+  and note that sprintf variations do not always \0-terminate (CWE-134). Use
+  a constant for the format specification.
+./src/gtest/gtest-all.cpp:8604:  [4] (format) _snprintf:
+  If format strings can be influenced by an attacker, they can be exploited,
+  and note that sprintf variations do not always \0-terminate (CWE-134). Use
+  a constant for the format specification.
+./src/gtest/gtest-all.cpp:8606:  [4] (format) snprintf:
+  If format strings can be influenced by an attacker, they can be exploited,
+  and note that sprintf variations do not always \0-terminate (CWE-134). Use
+  a constant for the format specification.
+./src/gtest/gtest-all.cpp:8608:  [4] (format) snprintf:
+  If format strings can be influenced by an attacker, they can be exploited,
+  and note that sprintf variations do not always \0-terminate (CWE-134). Use
+  a constant for the format specification.
+./src/gtest/gtest-all.cpp:8608:  [4] (format) _snprintf:
+  If format strings can be influenced by an attacker, they can be exploited,
+  and note that sprintf variations do not always \0-terminate (CWE-134). Use
+  a constant for the format specification.
+./src/gtest/gtest.h:2671:  [4] (buffer) StrNCpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+./src/gtest/gtest.h:8110:  [4] (format) fprintf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+./src/caffe/test/test_data_layer.cpp:323:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+./src/caffe/test/test_data_layer.cpp:346:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+./src/gtest/gtest-all.cpp:699:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+./src/gtest/gtest-all.cpp:720:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+./src/gtest/gtest-all.cpp:721:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+./src/gtest/gtest-all.cpp:1171:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+./src/gtest/gtest-all.cpp:3766:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+./src/gtest/gtest-all.cpp:3767:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+./src/gtest/gtest-all.cpp:5518:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+./src/gtest/gtest-all.cpp:5789:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+./src/gtest/gtest-all.cpp:5792:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+./src/gtest/gtest-all.cpp:5797:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+./src/gtest/gtest.h:2709:  [3] (buffer) getenv:
+  Environment variables are untrustable input if they can be set by an
+  attacker. They can have any content and length, and the same variable can
+  be set more than once (CWE-807, CWE-20). Check environment variables
+  carefully before using them.
+./src/gtest/gtest.h:2712:  [3] (buffer) getenv:
+  Environment variables are untrustable input if they can be set by an
+  attacker. They can have any content and length, and the same variable can
+  be set more than once (CWE-807, CWE-20). Check environment variables
+  carefully before using them.
+./src/gtest/gtest.h:17891:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+./examples/cifar10/convert_cifar_data.cpp:46:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/caffe/common.cpp:25:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+./src/caffe/layers/image_data_layer.cpp:45:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+./src/caffe/parallel.cpp:131:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/caffe/parallel.cpp:184:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/caffe/test/test_caffe_main.cpp:24:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+./src/caffe/util/io.cpp:35:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+./src/caffe/util/io.cpp:45:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+./src/caffe/util/io.cpp:53:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+./src/caffe/util/math_functions.cpp:96:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/gtest/gtest-all.cpp:2166:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/gtest/gtest-all.cpp:2169:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+./src/gtest/gtest-all.cpp:2657:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/gtest/gtest-all.cpp:2825:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/gtest/gtest-all.cpp:3007:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/gtest/gtest-all.cpp:6470:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/gtest/gtest-all.cpp:6889:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/gtest/gtest-all.cpp:7533:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/gtest/gtest-all.cpp:7536:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/gtest/gtest-all.cpp:8217:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./src/gtest/gtest-all.cpp:8295:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/gtest/gtest-all.cpp:8296:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/gtest/gtest-all.cpp:8314:  [2] (tmpfile) mkstemp:
+  Potential for temporary file vulnerability in some circumstances. Some
+  older Unix-like systems create temp files with permission to write by all
+  by default, so be sure to set the umask to override this. Also, some older
+  Unix systems might fail to use O_EXCL when opening the file, so make sure
+  that O_EXCL is used by the library (CWE-377).
+./src/gtest/gtest-all.cpp:8614:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./src/gtest/gtest.h:2683:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+./src/gtest/gtest.h:3154:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./tools/convert_imageset.cpp:81:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+./tools/extract_features.cpp:55:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+./tools/extract_features.cpp:119:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+./examples/cifar10/convert_cifar_data.cpp:33:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./examples/cifar10/convert_cifar_data.cpp:35:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./examples/mnist/convert_mnist_data.cpp:57:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./examples/mnist/convert_mnist_data.cpp:60:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./examples/mnist/convert_mnist_data.cpp:63:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./examples/mnist/convert_mnist_data.cpp:65:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./examples/mnist/convert_mnist_data.cpp:68:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./examples/mnist/convert_mnist_data.cpp:70:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./examples/mnist/convert_mnist_data.cpp:91:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./examples/mnist/convert_mnist_data.cpp:92:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./examples/siamese/convert_mnist_siamese_data.cpp:31:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./examples/siamese/convert_mnist_siamese_data.cpp:33:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./examples/siamese/convert_mnist_siamese_data.cpp:50:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./examples/siamese/convert_mnist_siamese_data.cpp:53:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./examples/siamese/convert_mnist_siamese_data.cpp:56:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./examples/siamese/convert_mnist_siamese_data.cpp:58:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./examples/siamese/convert_mnist_siamese_data.cpp:61:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./examples/siamese/convert_mnist_siamese_data.cpp:63:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/caffe/util/io.cpp:154:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/gtest/gtest-all.cpp:2154:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/gtest/gtest-all.cpp:2164:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/gtest/gtest-all.cpp:2809:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/gtest/gtest-all.cpp:2974:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/gtest/gtest-all.cpp:2975:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/gtest/gtest-all.cpp:2987:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/gtest/gtest-all.cpp:2988:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/gtest/gtest-all.cpp:4516:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/gtest/gtest-all.cpp:4745:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/gtest/gtest-all.cpp:5850:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/gtest/gtest-all.cpp:7951:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/gtest/gtest-all.cpp:8205:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/gtest/gtest-all.cpp:8853:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/gtest/gtest-all.cpp:8870:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./src/gtest/gtest.h:2672:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+./src/gtest/gtest.h:2694:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+./src/gtest/gtest.h:3050:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+
+ANALYSIS SUMMARY:
+
+Hits = 95
+Lines analyzed = 82002 in approximately 0.57 seconds (143067 lines/second)
+Physical Source Lines of Code (SLOC) = 61577
+Hits@level = [0]  78 [1]  36 [2]  29 [3]  15 [4]  15 [5]   0
+Hits@level+ = [0+] 173 [1+]  95 [2+]  59 [3+]  30 [4+]  15 [5+]   0
+Hits/KSLOC@level+ = [0+] 2.80949 [1+] 1.54278 [2+] 0.95815 [3+] 0.487195 [4+] 0.243597 [5+]   0
+Dot directories skipped = 2 (--followdotdir overrides)
+Minimum risk level = 1
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!
+See 'Secure Programming HOWTO'
+(https://dwheeler.com/secure-programs) for more information.
